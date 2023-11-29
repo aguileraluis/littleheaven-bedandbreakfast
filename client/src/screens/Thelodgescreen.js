@@ -43,7 +43,7 @@ const About = () => {
           </div>
         </section>
 
-        {/* <iframe className="video-js" width="560" height="315" src="https://www.youtube.com/embed/cblQb6vfUOg?si=siVsj1uw2UcSyXB9" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; web-share" allowfullscreen></iframe> */}
+        <iframe className="video-js" width="560" height="315" src="https://www.youtube.com/embed/YrphcwOyxUM?si=ez5TNkXR6XwzB4BD" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
         <br />
         <br />
