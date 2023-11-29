@@ -22,6 +22,7 @@ const HeroSection = styled.section`
     {
       transform: scale(0.98);
     } 
+  }
 `;
 
 const HeroWrapper = styled.div`
@@ -51,9 +52,10 @@ const HeroSlider = styled.div`
   align-items: center;
   justify-content: center;
 
+
   &::before {
     content: '',
-    position: absolute;
+    position= absolute;
     z-index: 2;
     width: 100%;
     height: 100vh;
@@ -63,7 +65,7 @@ const HeroSlider = styled.div`
     opacity: 0.4;
     background: liner-gradient(0deg, rgba(0,0,0,0.2) 0%, rgba(0,0,0,0.2) 50%, rgba(0,0,0,0.6) 100% )
   }
-`;
+`
 
 const HeroImage = styled(motion.img)`
   position: absolute;
@@ -76,7 +78,7 @@ const HeroImage = styled(motion.img)`
 
 const HeroContent = styled.div`
   position: relative;
-  z-index; 10;
+  z-index: 10;
   display: flex;
   flex-direction: column;
   max-width: 1600px;

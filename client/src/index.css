@@ -569,7 +569,7 @@ video{
 }
 
 .video-js {
-  width: 1400px;
+  width: 1300px;
   height: auto;
   aspect-ratio: 16/9;
   display: inline-block;
