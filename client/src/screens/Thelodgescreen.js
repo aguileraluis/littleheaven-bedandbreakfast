@@ -38,7 +38,7 @@ const About = () => {
 
           <div style={{ display: 'block', padding: '0', justifyContent: 'center' }}>
 
-            <h1 style={{ textAlign: 'center', marginBottom: '2rem', color: 'rgba(240, 116, 8, 0.848)' }}>Explore Little Heaven Bed & Breakfast:</h1>
+            <h1 style={{ textAlign: 'center', marginBottom: '2rem', color: 'rgba(240, 116, 8, 0.848)' }}>Experience Little Heaven Bed & Breakfast:</h1>
 
           </div>
         </section>
