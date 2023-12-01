@@ -8,7 +8,6 @@ import { DatePicker, Space } from 'antd';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import Swal from 'sweetalert2';
-import { SliderDataFour } from "../data/SliderData";
 import Hero from '../components/Hero';
 import TitleTwo from '../components/TitleTwo';
 import { ReactDOM } from 'react';
@@ -20,6 +19,29 @@ AOS.init({
 const { RangePicker } = DatePicker;
 
 function Homescreen() {
+
+    const SliderDataFour = [
+        {
+            title: 'You will fall in love with ALL six rooms!', 
+            titletwo: 'each one with new amenities and fully renovated',
+            image: "https://i.postimg.cc/qB5RHrqh/roomshero.jpg", 
+            alt: 'Lodge'
+        }, 
+        {
+            title: 'Your comfort is our TOP priority!', 
+            titletwo: 'We invite you to experience luxury like never before!',
+            image: "https://i.postimg.cc/ZK61xk9v/comfort.jpg", 
+            alt: 'Lodge'
+        }, 
+        {
+            title: 'Fresh coffee aromas travel through the mountian air', 
+            titletwo: 'every morning at Little Heaven',
+            image: "https://i.postimg.cc/s1F8pm9r/aromas.jpg", 
+            alt: 'Lodge'
+        }, 
+    
+    ]
+
     const [rooms, setrooms] = useState([]);
     const [loading, setloading] = useState();
     const [error, seterror] = useState();

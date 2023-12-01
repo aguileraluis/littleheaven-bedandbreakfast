@@ -1,5 +1,4 @@
 import React from 'react';
-import { SliderDataThree } from "../data/SliderData";
 import Hero from '../components/Hero';
 import { Link } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.css';
@@ -14,6 +13,45 @@ import Policies from '../images/policy.jpg';
 
 
 const About = () => {
+
+  const SliderDataThree = [
+    {
+        title: "Welcome to Little Heaven Bed & Breakfast", 
+        titletwo: 'a true experience of Peace, Joy, Love, Hope, and Faith',
+        image: "https://i.postimg.cc/65XrRCVf/littleheavenbedandbreakfast.jpg", 
+        alt: 'Lodge'
+    }, 
+    {
+        title: "From Modern Decor to Luxurious Comfort",
+        titletwo: 'You will forget where you are',
+        image: "https://i.postimg.cc/1Rcgk26D/lodgehero.jpg", 
+        alt: 'Lodge', 
+    }, 
+    {
+        title: "Six Unique and Elegant Rooms",
+        titletwo: 'for the perfect getaway',
+        image: "https://i.postimg.cc/2j2kFDh9/littleheavenb-b.jpg", 
+        alt: 'Lodge', 
+    }, 
+    {
+        title: 'Mountain Views Surround You', 
+        titletwo: 'relax and let them take your worries away',
+        image: "https://i.postimg.cc/432CHJrp/outsidetwo.jpg", 
+        alt: 'Lodge'
+    }, 
+    {
+        title: 'An Exquisite, Rustic Experience', 
+        titletwo: 'The openness carries itself inside',
+        image: "https://i.postimg.cc/D0dBs68R/outsidethree.jpg", 
+        alt: 'Lodge'
+    }, 
+    {
+        title: 'We Thank you', 
+        titletwo: 'for choosing Little Heaven Bed & Breakfast',
+        image: "https://i.postimg.cc/rsQ5MPdy/littleheavenbb.jpg", 
+        alt: 'Lodge'
+    }, 
+]; 
 
  
 
