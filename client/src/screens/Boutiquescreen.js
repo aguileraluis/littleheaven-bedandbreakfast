@@ -19,11 +19,11 @@ const Specialeventsscreen = () => {
       img: 'https://i.postimg.cc/HxW7dxSg/IMG-7973.jpg'
     },
     {
-      img: 'https://i.postimg.cc/pr49fBPW/IMG-7974.jpg'
-    }, 
-    {
       img: 'https://i.postimg.cc/K8LT5CKd/IMG-4907.jpg'
     },
+    {
+      img: 'https://i.postimg.cc/pr49fBPW/IMG-7974.jpg'
+    }, 
     {
       img: 'https://i.postimg.cc/ZRmx34V7/IMG-0036.jpg'
     },
