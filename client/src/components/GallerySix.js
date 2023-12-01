@@ -14,7 +14,7 @@ const GallerySix = () => {
         <>
             {data.img && 
             <div style={{
-                width: '80%',
+                width: 'auto',
                 height: '100vh', 
                 background: 'black', 
                 position: 'fixed', 
@@ -23,7 +23,6 @@ const GallerySix = () => {
                 alignItems: 'center',
                 overflow: 'hidden'
             }}>
-                <img src={data.img} alt="" style={{width: 'auto', maxWidth: '80%', maxHeight: '90%'}}/>
               
 
             </div>
