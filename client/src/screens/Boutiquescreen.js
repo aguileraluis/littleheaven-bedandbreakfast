@@ -184,8 +184,12 @@ const Specialeventsscreen = () => {
   return (
     <div style={{textAlign: 'center', justifyContent: 'center'}}>
       <img id="logopic" style={{ width: '30%', height: 'auto', textAlign: 'center', justifyContent: 'center', marginTop: '-3%', marginBottom: '-3%'}} src="https://i.postimg.cc/sgsYwLTH/boutiquejlo.jpg" alt="boutiquepic"/>
-      <h4 style={{ textAlign: 'center', color: 'darkorange' }}>We are here to help others to discover their unique style through our big variety of clothing.</h4>
-      <TextSection paragraph="More photos to come! If you have a special event we have it all from tuxes to dresses. Contact the Boutique at 336-615-5173 for more information."/>
+      <h5 style={{ textAlign: 'center', color: 'darkorange', marginLeft: '10%', marginRight: '10%' }}> We have a variety of wedding and Quinceañera / Sweet 16 dresses. In addition, we carry dresses for bridesmaids and for prom! Please tell your loved ones about us too, they may find something they love! Thank you.</h5>
+      
+      <h5 style={{ textAlign: 'center', color: 'darkorange', marginLeft: '10%', marginRight: '10%' }}>Check us out at your page!</h5>
+      
+      <h5 style={{ textAlign: 'center', color: 'darkorange', marginLeft: '10%', marginRight: '10%' }}><a style={{color: 'black'}}href="//www.jloubridalboutique.com/">J Lou Bridal Boutique</a></h5>
+      <TextSection paragraph="If you have a special event we have it all from tuxes to dresses. Contact the Boutique at 336-615-5173 for more information."/>
       <Photos galleryImages={galleryImagesTwo} />
       <br/>
       <br/>
