@@ -342,8 +342,6 @@ function Bookingscreen() {
 
     async function onToken(token) {
 
-       
-
         let bookingDetails = {
             room,
             fromdate,
@@ -359,7 +357,6 @@ function Bookingscreen() {
             chocolate,
             flowers,
             token
-
         }
 
         try {

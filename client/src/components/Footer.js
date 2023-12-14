@@ -6,18 +6,18 @@ import { IoMdArrowRoundForward } from 'react-icons/io';
 import { FaInstagram, FaFacebookF, FaTiktok } from 'react-icons/fa';
 import image from '../images/FooterImage.jpg';
 
+
+// Luis you changed this code if the footer is not working you need to check all the properties under the SECTION styled SECTION which is right underneath this comment
 const Section = styled.section`
 background-image: url(${image});
   color: #fff;
   width: 100%; 
   padding: 1rem calc((100vw - 1300px) /2 ); 
-  backgroundImage: "../images/FooterImage.jpg"
+  background-image: "../images/FooterImage.jpg";
   position: sticky;
   margin-top: 0;
   border-style: inset;
-  border-width: 15px;
-  border-height: 15px;
-  
+  border-width: 15px;  
 `;
 
 const Container = styled.div`
