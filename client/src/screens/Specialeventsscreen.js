@@ -77,32 +77,32 @@ We will provide hot chocolate and apple cider with cookies for you to enjoy. A P
             {/* <div className='container'>
               <div className='col-1'> */}
             <br />
-            <p style={{ fontSize: '50px', textAlign: 'center', textDecoration: 'bold' }}>Christmas Dinner Party</p>
-            <p style={{ fontSize: '30px', textAlign: 'center', textDecoration: 'bold' }}>Come join the fun and celebration!</p>
-            <VideoPlayer
+            {/* <p style={{ fontSize: '50px', textAlign: 'center', textDecoration: 'bold' }}>Christmas Dinner Party</p>
+            <p style={{ fontSize: '30px', textAlign: 'center', textDecoration: 'bold' }}>Come join the fun and celebration!</p> */}
+            {/* <VideoPlayer
               src={event}
               width="30%"
               height="auto"
-            />
+            /> */}
             {/* <div style={{ paddingBottom: "56.25%", paddingRight: '0', paddingLeft: '0', position: "relative", display: "block", width: "100%" }}>
                   <iframe width="100%" height="100%"
                     src={event} frameborder="0" allowfullscreen="" style={{ position: "absolute", top: "0", right: '0', bottom: '0', left: "0" }}>
                   </iframe>
                 </div> */}
-
+{/* 
             <br />
             <div className="section-title">
               <img className=".video-js" src={eventmenu} alt="menu" />
             </div>
             <div className="section-title">
               <button className="btn-primary" style={{ backgroundColor: 'black' }}><a style={{ color: 'white', textDecoration: "none" }} href="https://www.facebook.com/events/1494191691393241/?acontext=%7B%22event_action_history%22%3A[]%7D">Go to Facebook Event</a></button>
-            </div>
+            </div>*/}
           </div>
-        </div>
+        </div> 
 
         <br />
 
-        <div className='demo' id='demo' style={{ backgroundColor: 'darkorange' }}>
+        {/* <div className='demo' id='demo' style={{ backgroundColor: 'darkorange' }}>
           <div className='container'>
             <div className='col-1'>
               <img className="smallimgthree" src="https://scontent-atl3-1.xx.fbcdn.net/v/t39.30808-6/409213711_312965975044052_1016155145604398800_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=3635dc&_nc_ohc=MyrSR8pVA88AX9XT7uP&_nc_ht=scontent-atl3-1.xx&oh=00_AfAqbwdMym68zVC-ajBfZVphfKznpuMUAb7DIgwR7lKdOg&oe=657EC907" alt="menu" />
@@ -116,7 +116,7 @@ We will provide hot chocolate and apple cider with cookies for you to enjoy. A P
               <button style={{ backgroundColor: 'black' }} className='btn-primary'><a style={{ color: 'white', textDecoration: "none" }} href="https://www.facebook.com/story.php?story_fbid=312966005044049&id=100089919546738&mibextid=I6gGtw">Go to Facebook Event</a></button>
             </div>
           </div>
-        </div>
+        </div> */}
         <br />
         <div className='demo' id='demo'>
           <div className='container'>
@@ -129,7 +129,7 @@ We will provide hot chocolate and apple cider with cookies for you to enjoy. A P
               <button style={{ backgroundColor: 'black' }} className='btn-primary'><a style={{ color: 'white', textDecoration: "none" }} href="https://www.facebook.com/story.php?story_fbid=311892721818044&id=100089919546738&mibextid=I6gGtw">Go to Facebook Event</a></button>
             </div>
             <div className='col-1'>
-              <img className="smallimgthree" src="https://scontent-atl3-1.xx.fbcdn.net/v/t39.30808-6/406848998_311892685151381_719094809553344902_n.jpg?stp=dst-jpg_s720x720&_nc_cat=108&ccb=1-7&_nc_sid=3635dc&_nc_ohc=0KhgXA-MS44AX8r-U5V&_nc_ht=scontent-atl3-1.xx&oh=00_AfDKxQ7febtTI1suoFqXSbZdl79bCjpapCFA2BK2jtTACA&oe=657F1070" alt="menu" />
+              <img className="smallimgthree" src="https://i.postimg.cc/150kfKwY/406848998-311892685151381-719094809553344902-n.jpg" alt="menu" />
             </div>
           </div>
         </div>

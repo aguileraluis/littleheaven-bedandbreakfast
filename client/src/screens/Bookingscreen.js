@@ -374,6 +374,7 @@ function Bookingscreen() {
             return console.log(error);
         }
     }
+    
     const sendEmail = (e) => {
         setfilled(true);
         setclearpackages(true)
@@ -382,6 +383,7 @@ function Bookingscreen() {
         console.log("email sent");
         localStorage.clear();
       }
+
     function SubmitButton() {
        
         return <button type="submit" onClick={() => setselected(true)} style={{position: 'relative', alignContent: 'center', marginTop: '40px'}} className="btn btn-primary mt-12 section-title" >Okay! I've selected my additional packages.</button> 
