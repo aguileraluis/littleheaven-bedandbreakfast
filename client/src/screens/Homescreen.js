@@ -135,28 +135,28 @@ function Homescreen() {
                             cuarto.totalamount = 0;
                         if (date.includes(Sunday)) {
 
-                            joytotalprice += 279
+                            joytotalprice += 239
                         } else if (date.includes(Monday)) {
 
-                            joytotalprice += 279
+                            joytotalprice += 239
                         } else if (date.includes(Tuesday)) {
 
-                            joytotalprice += 279
+                            joytotalprice += 239
 
                         } else if (date.includes(Wednesday)) {
 
-                            joytotalprice += 279
+                            joytotalprice += 239
 
                         } else if (date.includes(Thursday)) {
 
-                            joytotalprice += 279
+                            joytotalprice += 239
 
                         } else if (date.includes(Friday)) {
 
-                            joytotalprice += 299
+                            joytotalprice += 259
                         } else if (date.includes(Saturday)) {
 
-                            joytotalprice += 299
+                            joytotalprice += 259
                         } else {
                             joytotalprice = 0;
                         }
@@ -169,28 +169,28 @@ function Homescreen() {
                         cuarto.totalamount = 0;
                         if (date.includes(Sunday)) {
 
-                            faithtotalprice += 279
+                            faithtotalprice += 239
                         } else if (date.includes(Monday)) {
 
-                            faithtotalprice += 279
+                            faithtotalprice += 239
                         } else if (date.includes(Tuesday)) {
 
-                            faithtotalprice += 279
+                            faithtotalprice += 239
 
                         } else if (date.includes(Wednesday)) {
 
-                            faithtotalprice += 279
+                            faithtotalprice += 239
 
                         } else if (date.includes(Thursday)) {
 
-                            faithtotalprice += 279
+                            faithtotalprice += 239
 
                         } else if (date.includes(Friday)) {
 
-                            faithtotalprice += 299
+                            faithtotalprice += 259
                         } else if (date.includes(Saturday)) {
 
-                            faithtotalprice += 299
+                            faithtotalprice += 259
                         } else {
                             faithtotalprice = 0;
                         }
@@ -204,28 +204,28 @@ function Homescreen() {
                         cuarto.totalamount = 0;
                         if (date.includes(Sunday)) {
 
-                            lovetotalprice += 299
+                            lovetotalprice += 259
                         } else if (date.includes(Monday)) {
 
-                            lovetotalprice += 299
+                            lovetotalprice += 259
                         } else if (date.includes(Tuesday)) {
 
-                            lovetotalprice += 299
+                            lovetotalprice += 259
 
                         } else if (date.includes(Wednesday)) {
 
-                            lovetotalprice += 299
+                            lovetotalprice += 259
 
                         } else if (date.includes(Thursday)) {
 
-                            lovetotalprice += 299
+                            lovetotalprice += 259
 
                         } else if (date.includes(Friday)) {
 
-                            lovetotalprice += 319
+                            lovetotalprice += 279
                         } else if (date.includes(Saturday)) {
 
-                            lovetotalprice += 319
+                            lovetotalprice += 279
                         } else {
                             lovetotalprice = 0;
                         }
@@ -238,28 +238,28 @@ function Homescreen() {
                         cuarto.totalamount = 0;
                         if (date.includes(Sunday)) {
 
-                            hopetotalprice += 279
+                            hopetotalprice += 239
                         } else if (date.includes(Monday)) {
 
-                            hopetotalprice += 279
+                            hopetotalprice += 239
                         } else if (date.includes(Tuesday)) {
 
-                            hopetotalprice += 279
+                            hopetotalprice += 239
 
                         } else if (date.includes(Wednesday)) {
 
-                            hopetotalprice += 279
+                            hopetotalprice += 239
 
                         } else if (date.includes(Thursday)) {
 
-                            hopetotalprice += 279
+                            hopetotalprice += 239
 
                         } else if (date.includes(Friday)) {
 
-                            hopetotalprice += 299
+                            hopetotalprice += 259
                         } else if (date.includes(Saturday)) {
 
-                            hopetotalprice += 299
+                            hopetotalprice += 259
                         } else {
                             hopetotalprice = 0;
                         }
@@ -271,28 +271,28 @@ function Homescreen() {
                         cuarto.totalamount = 0;
                         if (date.includes(Sunday)) {
 
-                            gracetotalprice += 279
+                            gracetotalprice += 239
                         } else if (date.includes(Monday)) {
 
-                            gracetotalprice += 279
+                            gracetotalprice += 239
                         } else if (date.includes(Tuesday)) {
 
-                            gracetotalprice += 279
+                            gracetotalprice += 239
 
                         } else if (date.includes(Wednesday)) {
 
-                            gracetotalprice += 279
+                            gracetotalprice += 239
 
                         } else if (date.includes(Thursday)) {
 
-                            gracetotalprice += 279
+                            gracetotalprice += 239
 
                         } else if (date.includes(Friday)) {
 
-                            gracetotalprice += 299
+                            gracetotalprice += 259
                         } else if (date.includes(Saturday)) {
 
-                            gracetotalprice += 299
+                            gracetotalprice += 259
                         } else {
                             gracetotalprice = 0;
                         }
@@ -303,28 +303,28 @@ function Homescreen() {
                     else if (cuarto.name.includes("Peace")) {
                         cuarto.totalamount = 0;
                         if (date.includes(Sunday)) {
-                            peacetotalprice += 279
+                            peacetotalprice += 239
                         } else if (date.includes(Monday)) {
 
-                            peacetotalprice += 279
+                            peacetotalprice += 239
                         } else if (date.includes(Tuesday)) {
 
-                            peacetotalprice += 279
+                            peacetotalprice += 239
 
                         } else if (date.includes(Wednesday)) {
 
-                            peacetotalprice += 279
+                            peacetotalprice += 239
 
                         } else if (date.includes(Thursday)) {
 
-                            peacetotalprice += 279
+                            peacetotalprice += 239
 
                         } else if (date.includes(Friday)) {
 
-                            peacetotalprice += 299
+                            peacetotalprice += 259
                         } else if (date.includes(Saturday)) {
 
-                            peacetotalprice += 299
+                            peacetotalprice += 259
                         } else {
                             peacetotalprice = 0;
                         }
@@ -537,7 +537,7 @@ function Homescreen() {
                 <Hero slides={SliderDataFour} />
                 <TitleTwo title="Little Heaven Bed & Breakfast" paragraph="Our Yadkin Valley Lodging includes 6 guest rooms on two different levels each with its own bathroom, writing tables and chairs. Every room has a high definition TV and a fireplace. Every room has been magnificently decorated, each with it's own unique theme, still feeling rustic yet modern. All bathrooms have been completely gutted and renovated for your relaxation and enjoyment. Every room has its own AC for your convenience. The sheets and comforters are all top of the line with comfort as a priority. All rooms include an iron, ironing board, towels, body wash, shampoo, hand soap, toiletries and two robes. * Check in is at 3:00 p.m. every day. Thank you for choosing to stay at Little Heaven Bed and Breakfast. We cannot wait to see you at the Cabin!" />
 
-                <h5 style={{textAlign: 'center'}}>*The Cabin will be closed on Monday and Tuesday until January 1st 2024.*</h5>
+                <h5 style={{textAlign: 'center'}}>*The Cabin will be closed on Monday and Tuesday until further notice.*</h5>
                         <h5 style={{textAlign: 'center'}}>We apologize in advance for any inconveniences.</h5>
                         <br/>
                         <br/>
