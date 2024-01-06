@@ -11,6 +11,7 @@ import Swal from 'sweetalert2';
 import Hero from '../components/Hero';
 import TitleTwo from '../components/TitleTwo';
 import { ReactDOM } from 'react';
+import Announcement from '../components/Announcement';
 
 AOS.init({
     duration: 2000
@@ -126,37 +127,84 @@ function Homescreen() {
                 var Saturday = "Sat";
                 var Sunday = "Sun";
 
+                var January = "Jan";
+                var February = "Feb";
+
+
 
                 var date = (day._d).toString();
 
                 for (var cuarto of duplicaterooms) {
+
+                    console.log(date);
                    
                     if (cuarto.name.includes("Joy")) {
                             cuarto.totalamount = 0;
                         if (date.includes(Sunday)) {
+                            if (date.includes(January)) {
+                                joytotalprice += 239
+                            } else if (date.includes(February)) {
+                                joytotalprice += 239
+                            } else {
+                                joytotalprice += 279
+                            }
 
-                            joytotalprice += 239
                         } else if (date.includes(Monday)) {
-
-                            joytotalprice += 239
+                            if (date.includes(January)) {
+                                joytotalprice += 239
+                            } else if (date.includes(February)) {
+                                joytotalprice += 239
+                            } else {
+                                joytotalprice += 279
+                            }
                         } else if (date.includes(Tuesday)) {
 
-                            joytotalprice += 239
-
+                            if (date.includes(January)) {
+                                joytotalprice += 239
+                            } else if (date.includes(February)) {
+                                joytotalprice += 239
+                            } else {
+                                joytotalprice += 279
+                            }
                         } else if (date.includes(Wednesday)) {
 
-                            joytotalprice += 239
-
+                            if (date.includes(January)) {
+                                joytotalprice += 239
+                            } else if (date.includes(February)) {
+                                joytotalprice += 239
+                            } else {
+                                joytotalprice += 279
+                            }
                         } else if (date.includes(Thursday)) {
 
-                            joytotalprice += 239
+                            if (date.includes(January)) {
+                                joytotalprice += 239
+                            } else if (date.includes(February)) {
+                                joytotalprice += 239
+                            } else {
+                                joytotalprice += 279
+                            }
 
                         } else if (date.includes(Friday)) {
 
-                            joytotalprice += 259
+                            if (date.includes(January)) {
+                                joytotalprice += 259
+                            } else if (date.includes(February)) {
+                                joytotalprice += 259
+                            } else {
+                                joytotalprice += 299
+                            }
+
                         } else if (date.includes(Saturday)) {
 
-                            joytotalprice += 259
+                            if (date.includes(January)) {
+                                joytotalprice += 259
+                            } else if (date.includes(February)) {
+                                joytotalprice += 259
+                            } else {
+                                joytotalprice += 299
+                            }
+
                         } else {
                             joytotalprice = 0;
                         }
@@ -169,28 +217,75 @@ function Homescreen() {
                         cuarto.totalamount = 0;
                         if (date.includes(Sunday)) {
 
-                            faithtotalprice += 239
+                             if (date.includes(January)) {
+                                faithtotalprice += 239
+                            } else if (date.includes(February)) {
+                                faithtotalprice += 239
+                            } else {
+                                faithtotalprice += 279
+                            }
                         } else if (date.includes(Monday)) {
 
-                            faithtotalprice += 239
+                            if (date.includes(January)) {
+                                faithtotalprice += 239
+                            } else if (date.includes(February)) {
+                                faithtotalprice += 239
+                            } else {
+                                faithtotalprice += 279
+                            }
                         } else if (date.includes(Tuesday)) {
 
-                            faithtotalprice += 239
+                            if (date.includes(January)) {
+                                faithtotalprice += 239
+                            } else if (date.includes(February)) {
+                                faithtotalprice += 239
+                            } else {
+                                faithtotalprice += 279
+                            }
 
                         } else if (date.includes(Wednesday)) {
 
-                            faithtotalprice += 239
+                            if (date.includes(January)) {
+                                faithtotalprice += 239
+                            } else if (date.includes(February)) {
+                                faithtotalprice += 239
+                            } else {
+                                faithtotalprice += 279
+                            }
+
 
                         } else if (date.includes(Thursday)) {
 
-                            faithtotalprice += 239
+                            if (date.includes(January)) {
+                                faithtotalprice += 239
+                            } else if (date.includes(February)) {
+                                faithtotalprice += 239
+                            } else {
+                                faithtotalprice += 279
+                            }
+
 
                         } else if (date.includes(Friday)) {
 
-                            faithtotalprice += 259
+                            if (date.includes(January)) {
+                                faithtotalprice += 259
+                            } else if (date.includes(February)) {
+                                faithtotalprice += 259
+                            } else {
+                                faithtotalprice += 299
+                            }
+
                         } else if (date.includes(Saturday)) {
 
-                            faithtotalprice += 259
+                            if (date.includes(January)) {
+                                faithtotalprice += 259
+                            } else if (date.includes(February)) {
+                                faithtotalprice += 259
+                            } else {
+                                faithtotalprice += 299
+                            }
+
+
                         } else {
                             faithtotalprice = 0;
                         }
@@ -204,28 +299,77 @@ function Homescreen() {
                         cuarto.totalamount = 0;
                         if (date.includes(Sunday)) {
 
-                            lovetotalprice += 259
+                            if (date.includes(January)) {
+                                lovetotalprice += 259
+                            } else if (date.includes(February)) {
+                                lovetotalprice += 259
+                            } else {
+                                lovetotalprice += 299
+                            }
+
+
                         } else if (date.includes(Monday)) {
 
-                            lovetotalprice += 259
+                          
+                            if (date.includes(January)) {
+                                lovetotalprice += 259
+                            } else if (date.includes(February)) {
+                                lovetotalprice += 259
+                            } else {
+                                lovetotalprice += 299
+                            }
                         } else if (date.includes(Tuesday)) {
 
-                            lovetotalprice += 259
+                        
+                            if (date.includes(January)) {
+                                lovetotalprice += 259
+                            } else if (date.includes(February)) {
+                                lovetotalprice += 259
+                            } else {
+                                lovetotalprice += 299
+                            }
 
                         } else if (date.includes(Wednesday)) {
 
-                            lovetotalprice += 259
+                           
+                            if (date.includes(January)) {
+                                lovetotalprice += 259
+                            } else if (date.includes(February)) {
+                                lovetotalprice += 259
+                            } else {
+                                lovetotalprice += 299
+                            }
 
                         } else if (date.includes(Thursday)) {
 
-                            lovetotalprice += 259
+                         
+                            if (date.includes(January)) {
+                                lovetotalprice += 259
+                            } else if (date.includes(February)) {
+                                lovetotalprice += 259
+                            } else {
+                                lovetotalprice += 299
+                            }
 
                         } else if (date.includes(Friday)) {
 
-                            lovetotalprice += 279
+                         
+                            if (date.includes(January)) {
+                                lovetotalprice += 279
+                            } else if (date.includes(February)) {
+                                lovetotalprice += 279
+                            } else {
+                                lovetotalprice += 319
+                            }
                         } else if (date.includes(Saturday)) {
 
-                            lovetotalprice += 279
+                            if (date.includes(January)) {
+                                lovetotalprice += 279
+                            } else if (date.includes(February)) {
+                                lovetotalprice += 279
+                            } else {
+                                lovetotalprice += 319
+                            }
                         } else {
                             lovetotalprice = 0;
                         }
@@ -238,28 +382,73 @@ function Homescreen() {
                         cuarto.totalamount = 0;
                         if (date.includes(Sunday)) {
 
-                            hopetotalprice += 239
+                            if (date.includes(January)) {
+                                hopetotalprice += 239
+                            } else if (date.includes(February)) {
+                                hopetotalprice += 239
+                            } else {
+                                hopetotalprice += 279
+                            }
                         } else if (date.includes(Monday)) {
 
-                            hopetotalprice += 239
+                        
+                            if (date.includes(January)) {
+                                hopetotalprice += 239
+                            } else if (date.includes(February)) {
+                                hopetotalprice += 239
+                            } else {
+                                hopetotalprice += 279
+                            }
                         } else if (date.includes(Tuesday)) {
 
-                            hopetotalprice += 239
-
+                         
+                            if (date.includes(January)) {
+                                hopetotalprice += 239
+                            } else if (date.includes(February)) {
+                                hopetotalprice += 239
+                            } else {
+                                hopetotalprice += 279
+                            }
                         } else if (date.includes(Wednesday)) {
 
-                            hopetotalprice += 239
+                            if (date.includes(January)) {
+                                hopetotalprice += 239
+                            } else if (date.includes(February)) {
+                                hopetotalprice += 239
+                            } else {
+                                hopetotalprice += 279
+                            }
 
                         } else if (date.includes(Thursday)) {
 
-                            hopetotalprice += 239
+                        
+                            if (date.includes(January)) {
+                                hopetotalprice += 239
+                            } else if (date.includes(February)) {
+                                hopetotalprice += 239
+                            } else {
+                                hopetotalprice += 279
+                            }
 
                         } else if (date.includes(Friday)) {
 
-                            hopetotalprice += 259
+                          
+                            if (date.includes(January)) {
+                                hopetotalprice += 259
+                            } else if (date.includes(February)) {
+                                hopetotalprice += 259
+                            } else {
+                                hopetotalprice += 299
+                            }
                         } else if (date.includes(Saturday)) {
 
-                            hopetotalprice += 259
+                            if (date.includes(January)) {
+                                hopetotalprice += 259
+                            } else if (date.includes(February)) {
+                                hopetotalprice += 259
+                            } else {
+                                hopetotalprice += 299
+                            }
                         } else {
                             hopetotalprice = 0;
                         }
@@ -271,28 +460,69 @@ function Homescreen() {
                         cuarto.totalamount = 0;
                         if (date.includes(Sunday)) {
 
-                            gracetotalprice += 239
+                            if (date.includes(January)) {
+                                gracetotalprice += 239
+                            } else if (date.includes(February)) {
+                                gracetotalprice += 239
+                            } else {
+                                gracetotalprice += 279
+                            }
                         } else if (date.includes(Monday)) {
 
-                            gracetotalprice += 239
+                            if (date.includes(January)) {
+                                gracetotalprice += 239
+                            } else if (date.includes(February)) {
+                                gracetotalprice += 239
+                            } else {
+                                gracetotalprice += 279
+                            }
                         } else if (date.includes(Tuesday)) {
 
-                            gracetotalprice += 239
+                            if (date.includes(January)) {
+                                gracetotalprice += 239
+                            } else if (date.includes(February)) {
+                                gracetotalprice += 239
+                            } else {
+                                gracetotalprice += 279
+                            }
 
                         } else if (date.includes(Wednesday)) {
-
-                            gracetotalprice += 239
+                            if (date.includes(January)) {
+                                gracetotalprice += 239
+                            } else if (date.includes(February)) {
+                                gracetotalprice += 239
+                            } else {
+                                gracetotalprice += 279
+                            }
 
                         } else if (date.includes(Thursday)) {
 
-                            gracetotalprice += 239
+                            if (date.includes(January)) {
+                                gracetotalprice += 239
+                            } else if (date.includes(February)) {
+                                gracetotalprice += 239
+                            } else {
+                                gracetotalprice += 279
+                            }
 
                         } else if (date.includes(Friday)) {
 
-                            gracetotalprice += 259
+                            if (date.includes(January)) {
+                                gracetotalprice += 259
+                            } else if (date.includes(February)) {
+                                gracetotalprice += 259
+                            } else {
+                                gracetotalprice += 299
+                            }
                         } else if (date.includes(Saturday)) {
 
-                            gracetotalprice += 259
+                            if (date.includes(January)) {
+                                gracetotalprice += 259
+                            } else if (date.includes(February)) {
+                                gracetotalprice += 259
+                            } else {
+                                gracetotalprice += 299
+                            }
                         } else {
                             gracetotalprice = 0;
                         }
@@ -303,28 +533,69 @@ function Homescreen() {
                     else if (cuarto.name.includes("Peace")) {
                         cuarto.totalamount = 0;
                         if (date.includes(Sunday)) {
-                            peacetotalprice += 239
+                            if (date.includes(January)) {
+                                peacetotalprice += 239
+                            } else if (date.includes(February)) {
+                                peacetotalprice += 239
+                            } else {
+                                peacetotalprice += 279
+                            }
                         } else if (date.includes(Monday)) {
 
-                            peacetotalprice += 239
+                            if (date.includes(January)) {
+                                peacetotalprice += 239
+                            } else if (date.includes(February)) {
+                                peacetotalprice += 239
+                            } else {
+                                peacetotalprice += 279
+                            }
                         } else if (date.includes(Tuesday)) {
 
-                            peacetotalprice += 239
+                            if (date.includes(January)) {
+                                peacetotalprice += 239
+                            } else if (date.includes(February)) {
+                                peacetotalprice += 239
+                            } else {
+                                peacetotalprice += 279
+                            }
 
                         } else if (date.includes(Wednesday)) {
 
-                            peacetotalprice += 239
+                            if (date.includes(January)) {
+                                peacetotalprice += 239
+                            } else if (date.includes(February)) {
+                                peacetotalprice += 239
+                            } else {
+                                peacetotalprice += 279
+                            }
 
                         } else if (date.includes(Thursday)) {
 
-                            peacetotalprice += 239
+                            if (date.includes(January)) {
+                                peacetotalprice += 239
+                            } else if (date.includes(February)) {
+                                peacetotalprice += 239
+                            } else {
+                                peacetotalprice += 279
+                            }
 
                         } else if (date.includes(Friday)) {
-
-                            peacetotalprice += 259
+                            if (date.includes(January)) {
+                                peacetotalprice += 259
+                            } else if (date.includes(February)) {
+                                peacetotalprice += 259
+                            } else {
+                                peacetotalprice += 299
+                            }
                         } else if (date.includes(Saturday)) {
 
-                            peacetotalprice += 259
+                            if (date.includes(January)) {
+                                peacetotalprice += 259
+                            } else if (date.includes(February)) {
+                                peacetotalprice += 259
+                            } else {
+                                peacetotalprice += 299
+                            }
                         } else {
                             peacetotalprice = 0;
                         }
@@ -351,7 +622,7 @@ function Homescreen() {
                     todate = (moment(todate, "MM-DD-YYYY")._i)
                     if (
                         !moment(moment(fromdate, "MM-DD-YYYY")).isBetween(moment(bookingfromdate, "MM-DD-YYYY"), moment(bookingtodate, "MM-DD-YYYY"))
-                        && !moment(moment(todate, "MM-DD-YYYY")).isBetween(moment(bookingfromdate, "MM-DD-YYYY"), moment(bookingtodate, "MM-DD-YYYY"))
+                        || !moment(moment(todate, "MM-DD-YYYY")).isBetween(moment(bookingfromdate, "MM-DD-YYYY"), moment(bookingtodate, "MM-DD-YYYY"))
                         && !moment(moment(bookingfromdate, "MM-DD-YYYY")).isBetween(moment(fromdate, "MM-DD-YYYY"), moment(todate, "MM-DD-YYYY"))
                         && !moment(moment(bookingtodate, "MM-DD-YYYY")).isBetween(moment(fromdate, "MM-DD-YYYY"), moment(todate, "MM-DD-YYYY"))
                         && !moment(moment(fromdate, 'MM-DD-YYYY')).isSame(moment(bookingfromdate, "MM-DD-YYYY"))
@@ -535,6 +806,7 @@ function Homescreen() {
         <>
             <div style={{textAlign: 'center'}}>
                 <Hero slides={SliderDataFour} />
+                <Announcement />
                 <TitleTwo title="Little Heaven Bed & Breakfast" paragraph="Our Yadkin Valley Lodging includes 6 guest rooms on two different levels each with its own bathroom, writing tables and chairs. Every room has a high definition TV and a fireplace. Every room has been magnificently decorated, each with it's own unique theme, still feeling rustic yet modern. All bathrooms have been completely gutted and renovated for your relaxation and enjoyment. Every room has its own AC for your convenience. The sheets and comforters are all top of the line with comfort as a priority. All rooms include an iron, ironing board, towels, body wash, shampoo, hand soap, toiletries and two robes. * Check in is at 3:00 p.m. every day. Thank you for choosing to stay at Little Heaven Bed and Breakfast. We cannot wait to see you at the Cabin!" />
 
                 <h5 style={{textAlign: 'center'}}>*The Cabin will be closed on Monday and Tuesday until further notice.*</h5>
