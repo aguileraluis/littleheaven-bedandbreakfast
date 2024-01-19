@@ -43,6 +43,22 @@ const Specialeventsscreen = () => {
     }
   ]
 
+  const pastryImages = [
+    {
+      img: 'https://i.postimg.cc/Vkj9cHwG/cake1.jpg'
+    }, 
+    {
+      img: 'https://i.postimg.cc/0QN7DkwF/cake2.jpg'
+    }, 
+    {
+      img: 'https://i.postimg.cc/fWpYShTq/cake3.jpg'
+    }, 
+    {
+      img: 'https://i.postimg.cc/0ydS4MGh/cake4.jpg'
+    }, 
+
+  ]
+
   return (
     <>
       <br />
@@ -53,6 +69,35 @@ const Specialeventsscreen = () => {
       <section stle={{ fontSize: '1.5rem', color: 'black', textAlign: 'center', paddingLeft: '1rem', paddingRight: '1rem', paddingTop: '0', paddingBottom: '0', marginLeft: '1rem', marginRight: '1rem', width: '50%', height: 'auto' }}>
 
         <div style={{ display: 'block', flexDirection: 'row' }}>
+        <Photos galleryImages={pastryImages} />
+        <div className='demo' id='demo' style={{ backgroundColor: 'darkorange' }}>
+          <div className='container'>
+            <div className='col-1'>
+              <img className="smallimgthree" src="https://i.postimg.cc/25wGRXYd/grandopening.jpg" alt="menu" />
+            </div>
+            <div className='col-1'>
+              <br />
+              <p>Little Heaven Cafe's Grand Opening!</p>
+              <p style={{ fontSize: '30px' }}>
+                Come and try our DELICIOUS pastries! You will leave wanting more! Bring all your loved ones for a very sweet evenening.</p>
+              <br />
+              <button style={{ backgroundColor: 'black' }} className='btn-primary'><a style={{ color: 'white', textDecoration: "none" }} href="https://www.facebook.com/share/v/KNyPFEf5VcWWAV8k/?mibextid=WC7FNe" >Go to Facebook Event</a></button>
+            </div>
+          </div>
+        </div>
+        
+        <div className='demo' id='demo' style={{ backgroundColor: 'darkorange' }}>
+          <div className='container'>
+          <div className='col-1'>
+              <br />
+              <p>Give us a call and try our delicious pastries.</p>
+            </div>
+            <div className='col-1'>
+              <img className="smallimgthree" src="https://i.postimg.cc/W3ZHRw9s/flyermenu.jpg" alt="menu" />
+            </div>
+            
+          </div>
+        </div>
 
           {/* <div className='demo' id='demo' style={{ backgroundColor: 'darkorange' }}>
             <div className='container'>
@@ -120,6 +165,10 @@ We will provide hot chocolate and apple cider with cookies for you to enjoy. A P
         <br />
         <div className='demo' id='demo'>
           <div className='container'>
+            
+            <div className='col-1'>
+              <img className="smallimgthree" src="https://i.postimg.cc/150kfKwY/406848998-311892685151381-719094809553344902-n.jpg" alt="menu" />
+            </div>
             <div className='col-1'>
               <br />
               <p>Be My Date </p>
@@ -127,9 +176,6 @@ We will provide hot chocolate and apple cider with cookies for you to enjoy. A P
                 Reserve your spot!!</p>
               <br />
               <button style={{ backgroundColor: 'black' }} className='btn-primary'><a style={{ color: 'white', textDecoration: "none" }} href="https://www.facebook.com/story.php?story_fbid=311892721818044&id=100089919546738&mibextid=I6gGtw">Go to Facebook Event</a></button>
-            </div>
-            <div className='col-1'>
-              <img className="smallimgthree" src="https://i.postimg.cc/150kfKwY/406848998-311892685151381-719094809553344902-n.jpg" alt="menu" />
             </div>
           </div>
         </div>
@@ -174,15 +220,18 @@ We will provide hot chocolate and apple cider with cookies for you to enjoy. A P
 
         <div className='demo' id='demo' style={{ backgroundColor: 'darkorange' }}>
           <div className='container'>
-            <div className='col-1'>
-              <img className="smallimgthree" src={eventthree} alt="menu" />
-            </div>
+           
             <div className='col-1'>
               <br />
               <p>Valentine's Date Night</p>
-              <p style={{ fontSize: '30px' }}>Come and get your Gift Certificates and make someone SMILE with Joy and gratitude!</p>
+              <p style={{ fontSize: '30px' }}>Valentine's Date Night at Little Heaven!
+                make your "Reservation" before is too late!!
+                Limited space, call now</p>
               <br />
               <button style={{ backgroundColor: 'black' }} className='btn-primary'><a style={{ color: 'white', textDecoration: "none" }} href="https://www.facebook.com/100089919546738/posts/pfbid035eM3jhCXbGVS2jeYjaFxsnswEstN5GXBc7r5pncPcX2ZXwD8mEiTv3tst2nv5Ubvl/?mibextid=I6gGtw" >Go to Facebook Event</a></button>
+            </div>
+            <div className='col-1'>
+              <img className="smallimgthree" src={eventthree} alt="menu" />
             </div>
           </div>
         </div>
@@ -191,17 +240,17 @@ We will provide hot chocolate and apple cider with cookies for you to enjoy. A P
 
         <div className='demo' id='demo'>
           <div className='container'>
+          
+            <div className='col-1'>
+              <img className="smallimgthree" src={eventtwo} alt="menu" />
+            </div>
             <div className='col-1'>
               <br />
               <p>Little Heaven's Bed & Breakfast Gift Certificate</p>
-              <p style={{ fontSize: '30px' }}>Valentine's Date Night at Little Heaven!
-                make your "Reservation" before is too late!!
-                Limited space, call now</p>
+              <p style={{ fontSize: '30px' }}>Come and get your Gift Certificates and make someone SMILE with Joy and gratitude!</p>
+             
               <br />
               <button style={{ backgroundColor: 'black' }} className='btn-primary'><a style={{ color: 'white', textDecoration: "none" }} href="https://www.facebook.com/100089919546738/posts/pfbid02Yd7JbWJSsCwAveMEN7m1V4cc47F1m5faqcHRvUU3nDSsjocbwiit8U7rxsEDabdol/?mibextid=I6gGtw">Go to Facebook Event</a></button>
-            </div>
-            <div className='col-1'>
-              <img className="smallimgthree" src={eventtwo} alt="menu" />
             </div>
           </div>
         </div>
