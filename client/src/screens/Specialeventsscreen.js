@@ -162,6 +162,24 @@ We will provide hot chocolate and apple cider with cookies for you to enjoy. A P
             </div>
           </div>
         </div> */}
+
+<div className='demo' id='demo' style={{ backgroundColor: 'darkorange' }}>
+          <div className='container'>
+           
+            <div className='col-1'>
+              <br />
+              <p>Valentine's Date Night</p>
+              <p style={{ fontSize: '30px' }}>Valentine's Date Night at Little Heaven!
+                make your "Reservation" before is too late!!
+                Limited space, call now</p>
+              <br />
+              <button style={{ backgroundColor: 'black' }} className='btn-primary'><a style={{ color: 'white', textDecoration: "none" }} href="https://www.facebook.com/100089919546738/posts/pfbid035eM3jhCXbGVS2jeYjaFxsnswEstN5GXBc7r5pncPcX2ZXwD8mEiTv3tst2nv5Ubvl/?mibextid=I6gGtw" >Go to Facebook Event</a></button>
+            </div>
+            <div className='col-1'>
+              <img className="smallimgthree" src={eventthree} alt="menu" />
+            </div>
+          </div>
+        </div>
         <br />
         <div className='demo' id='demo'>
           <div className='container'>
@@ -218,23 +236,7 @@ We will provide hot chocolate and apple cider with cookies for you to enjoy. A P
             </div>
               </div>*/}
 
-        <div className='demo' id='demo' style={{ backgroundColor: 'darkorange' }}>
-          <div className='container'>
-           
-            <div className='col-1'>
-              <br />
-              <p>Valentine's Date Night</p>
-              <p style={{ fontSize: '30px' }}>Valentine's Date Night at Little Heaven!
-                make your "Reservation" before is too late!!
-                Limited space, call now</p>
-              <br />
-              <button style={{ backgroundColor: 'black' }} className='btn-primary'><a style={{ color: 'white', textDecoration: "none" }} href="https://www.facebook.com/100089919546738/posts/pfbid035eM3jhCXbGVS2jeYjaFxsnswEstN5GXBc7r5pncPcX2ZXwD8mEiTv3tst2nv5Ubvl/?mibextid=I6gGtw" >Go to Facebook Event</a></button>
-            </div>
-            <div className='col-1'>
-              <img className="smallimgthree" src={eventthree} alt="menu" />
-            </div>
-          </div>
-        </div>
+        
 
         <br />
 

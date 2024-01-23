@@ -18,7 +18,10 @@ const roomSchema = mongoose.Schema({
         type: String
     }, 
     rentPerDay : {
-        tupe: String
+        type: String
+    }, 
+    rentPerDay2 : {
+        type: String
     }
 },
     {

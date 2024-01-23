@@ -106,7 +106,7 @@ const Image = styled.img`
     }
 `; 
 
-const Features = ({image, imagetwo, totalamount, rentPerDay, roomdescriptiontwo, roomname}) => {
+const Features = ({image, imagetwo, totalamount, rentPerDay, rentPerDay2, roomdescriptiontwo, roomname}) => {
 
     const [open, setopen] = useState(false)
     let color = ''
@@ -155,6 +155,7 @@ const Features = ({image, imagetwo, totalamount, rentPerDay, roomdescriptiontwo,
                         >
                             <h2 style={{color: `${color}`}}>{roomname}</h2>
                             <p style={{color: `black`, textAlign: 'center', fontSize: '20px'}}><b>Price Per Night : {rentPerDay}</b></p>
+                            <p style={{color: `darkorange`, textAlign: 'center', fontSize: '20px'}}><b>Jan & Feb Only : {rentPerDay2}</b></p>
                             <p style={{color: `black`, textAlign: 'center', fontSize: '20px'}}><b>Total : {totalamount}</b></p>
                             <Image style={{padding: '5px', borderRadius: '5%'}}
                           data-aos='fade-left'

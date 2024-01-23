@@ -4,14 +4,16 @@ import Room from '../components/Room';
 import Loader from '../components/Loader';
 import moment from 'moment';
 import 'antd/dist/antd';
-import { DatePicker, Space } from 'antd';
+import { DatePicker } from 'antd';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import Swal from 'sweetalert2';
 import Hero from '../components/Hero';
 import TitleTwo from '../components/TitleTwo';
-import { ReactDOM } from 'react';
 import Announcement from '../components/Announcement';
+import Imagenineteen from "../images/comfort.jpg"; 
+import Imagetwenty from "../images/aromas.jpg";
+import Imageone from '../images/roomshero.jpg';
 
 AOS.init({
     duration: 2000
@@ -25,19 +27,19 @@ function Homescreen() {
         {
             title: 'You will fall in love with ALL six rooms!', 
             titletwo: 'each one with new amenities and fully renovated',
-            image: "https://i.postimg.cc/qB5RHrqh/roomshero.jpg", 
+            image: Imageone, 
             alt: 'Lodge'
         }, 
         {
             title: 'Your comfort is our TOP priority!', 
             titletwo: 'We invite you to experience luxury like never before!',
-            image: "https://i.postimg.cc/ZK61xk9v/comfort.jpg", 
+            image: Imagenineteen, 
             alt: 'Lodge'
         }, 
         {
             title: 'Fresh coffee aromas travel through the mountian air', 
             titletwo: 'every morning at Little Heaven',
-            image: "https://i.postimg.cc/s1F8pm9r/aromas.jpg", 
+            image: Imagetwenty, 
             alt: 'Lodge'
         }, 
     
@@ -111,6 +113,8 @@ function Homescreen() {
             var gracetotalprice = 0;
             var peacetotalprice = 0;
 
+            var numberOfDays = 0;
+
 
             while ((moment(moment(fromdate, "MM-DD-YYYY")).isBefore(moment(todate, "MM-DD-YYYY")))) {
                 days.push(moment(fromdate, "MM-DD-YYYY"));
@@ -143,6 +147,7 @@ function Homescreen() {
                         if (date.includes(Sunday)) {
                             if (date.includes(January)) {
                                 joytotalprice += 239
+                            
                             } else if (date.includes(February)) {
                                 joytotalprice += 239
                             } else {
@@ -211,6 +216,7 @@ function Homescreen() {
 
                         localStorage.setItem('Joy', JSON.stringify(joytotalprice));
                         cuarto.totalamount = joytotalprice;
+                        console.log(days)
 
                     }
                     else if (cuarto.name.includes("Faith")) {

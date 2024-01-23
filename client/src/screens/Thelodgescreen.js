@@ -11,6 +11,12 @@ import Treats from '../images/cafe.jpg';
 import Directions from '../images/directions.jpg';
 import Policies from '../images/policy.jpg';
 import Announcement from '../components/Announcement';
+import bathroom from "../images/lodgehero.jpg";
+import Imagefifteen from "../images/littleheavenb&b.jpg";
+import Imageseventeen from "../images/littleheavenbedandbreakfast.jpg";
+import outside from "../images/outsidetwo.jpg";
+import inside from "../images/outsidethree.jpg";
+import Imageeighteen from "../images/littleheavenbb.jpg"; 
 
 
 const About = () => {
@@ -19,37 +25,37 @@ const About = () => {
     {
         title: "Welcome to Little Heaven Bed & Breakfast", 
         titletwo: 'a true experience of Peace, Joy, Love, Hope, and Faith',
-        image: "https://i.postimg.cc/65XrRCVf/littleheavenbedandbreakfast.jpg", 
+        image: Imageseventeen, 
         alt: 'Lodge'
     }, 
     {
         title: "From Modern Decor to Luxurious Comfort",
         titletwo: 'You will forget where you are',
-        image: "https://i.postimg.cc/1Rcgk26D/lodgehero.jpg", 
+        image: bathroom, 
         alt: 'Lodge', 
     }, 
     {
         title: "Six Unique and Elegant Rooms",
         titletwo: 'for the perfect getaway',
-        image: "https://i.postimg.cc/2j2kFDh9/littleheavenb-b.jpg", 
+        image: Imagefifteen, 
         alt: 'Lodge', 
     }, 
     {
         title: 'Mountain Views Surround You', 
         titletwo: 'relax and let them take your worries away',
-        image: "https://i.postimg.cc/432CHJrp/outsidetwo.jpg", 
+        image: outside, 
         alt: 'Lodge'
     }, 
     {
         title: 'An Exquisite, Rustic Experience', 
         titletwo: 'The openness carries itself inside',
-        image: "https://i.postimg.cc/D0dBs68R/outsidethree.jpg", 
+        image: inside, 
         alt: 'Lodge'
     }, 
     {
         title: 'We Thank you', 
         titletwo: 'for choosing Little Heaven Bed & Breakfast',
-        image: "https://i.postimg.cc/rsQ5MPdy/littleheavenbb.jpg", 
+        image: Imageeighteen, 
         alt: 'Lodge'
     }, 
 ]; 
