@@ -6,6 +6,7 @@ export const menuData = [
     { title: 'The Area', link: '/thearea' },
     { title: 'Special Events', link: '/specialevents' },
     { title: 'Boutique', link: '/boutique' },
+    { title: 'Café', link: '/cafe' },
     { title: 'Our Story', link: '/story' }, 
     
 ]

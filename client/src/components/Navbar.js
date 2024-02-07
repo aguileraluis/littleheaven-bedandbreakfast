@@ -33,7 +33,7 @@ const NavLink = css`
     height: 100%;
     cursor: pointer;
     text-decoration: none;
-    font-size: 30px;
+    font-size: 25px;
     &:hover {
         color: orange;
     }

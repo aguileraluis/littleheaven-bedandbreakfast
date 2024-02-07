@@ -26,6 +26,7 @@ import Thingstodoscreen from './screens/Thingstodoscreen';
 import Localwineriesscreen from './screens/Localwineriesscreen';
 import Boutiquescreen from './screens/Boutiquescreen';
 import Reservationheader from './components/Reservationheader';
+import Cafescreen from './screens/Cafescreen';
 
 function App() {
     const [isOpen, setIsOpen] = useState(false);
@@ -73,8 +74,10 @@ function App() {
       <Route path="/thingstodo" element={<Thingstodoscreen />}/>
       <Route path="/localwineries" element={<Localwineriesscreen />}/>
       <Route path="/boutique" element={<Boutiquescreen />}/>
+      <Route path="/cafe" element={<Cafescreen />}/>
       <Route path="*" element={<Thelodgescreen />} />
       <Route path="/" element={<Thelodgescreen />} />
+      
     </Routes>
     <Footer />
     </div>

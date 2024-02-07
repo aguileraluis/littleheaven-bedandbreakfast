@@ -3,14 +3,14 @@ import styled from 'styled-components';
 import { mobile } from "../responsive";
 
 const Container = styled.div`
-    height: 70px;
+    height: 40px;
     background-color: lightgoldenrodyellow;
     color: black;
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 30px;
-    ${mobile({padding: '5px', fontSize: '17px', height: '60px', textAlign: 'center'})}
+    font-size: 20px;
+    ${mobile({padding: '5px', fontSize: '15px', height: '50px', textAlign: 'center'})}
 `;
 
 const Announcement = () => {
