@@ -25,6 +25,7 @@ import Diningscreen from './screens/Diningscreen';
 import Thingstodoscreen from './screens/Thingstodoscreen';
 import Localwineriesscreen from './screens/Localwineriesscreen';
 import Boutiquescreen from './screens/Boutiquescreen';
+import Reservationheader from './components/Reservationheader';
 
 function App() {
     const [isOpen, setIsOpen] = useState(false);
@@ -47,6 +48,7 @@ function App() {
   return (
     <div className="App">
    
+   <Reservationheader />
    <Navbar toggle={toggle}/>
    <Dropdown isOpen={isOpen} toggle={toggle}/>
  

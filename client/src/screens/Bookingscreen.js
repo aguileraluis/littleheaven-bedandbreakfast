@@ -524,8 +524,8 @@ function Bookingscreen() {
             amount={totalamount * 100}
             token={onToken}
             currency={'USD'}
-            stripeKey="pk_live_51KWrgOEQ6YTqHunyjTvuPENEm4gD2k3W6z1hKXQqKpU1wVW88fyZ02eec3TTpdDyrHivYVdGVXbC1CKJk4776Fls00EQI9Kmbl"                    
-            // stripeKey="pk_test_51KWrgOEQ6YTqHunyX0uoWgUrVGqOACgCQPEcX947w2u602fVYWIlA6OWheyblRORUwhc47omYPsCrQNAaV7zAtXz00XZIzQEdg"                    
+            // stripeKey="pk_live_51KWrgOEQ6YTqHunyjTvuPENEm4gD2k3W6z1hKXQqKpU1wVW88fyZ02eec3TTpdDyrHivYVdGVXbC1CKJk4776Fls00EQI9Kmbl"                    
+            stripeKey="pk_test_51KWrgOEQ6YTqHunyX0uoWgUrVGqOACgCQPEcX947w2u602fVYWIlA6OWheyblRORUwhc47omYPsCrQNAaV7zAtXz00XZIzQEdg"                    
         >
             <div style={{paddingRight: '120px', paddingBottom: '30px'}}>
             <button className="btn btn-primary">Pay Now</button>
