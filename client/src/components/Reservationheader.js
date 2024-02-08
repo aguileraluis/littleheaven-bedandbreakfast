@@ -9,7 +9,7 @@ const Container = styled.div`
     color: white;
     display: flex;
     justify-content: space-between;
-    font-size: 25px;
+    font-size: 20px;
     ${mobile({ fontSize: '17px', height: '65px', textAlign: 'center', paddingBottom: '20px'})}
 `;
 
@@ -20,7 +20,7 @@ const ContainerLeft = styled.p`
     font-weight: bold;
     
     padding-left: 25px;
-    font-size: 25px;
+    font-size: 20px;
     ${mobile({ fontSize: '17px', height: '60px', textAlign: 'left', paddingLeft: '10px'})}
 `;
 
@@ -30,7 +30,7 @@ const ContainerRight = styled.p`
     text-align: right !important;
     padding-right: 25px;
     font-weight: bold;
-    font-size: 25px;
+    font-size: 20px;
     ${mobile({ fontSize: '17px', height: '60px', textAlign: 'right', paddingRight: '10px'})}
 `;
 
