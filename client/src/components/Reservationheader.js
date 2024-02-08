@@ -9,9 +9,8 @@ const Container = styled.div`
     color: white;
     display: flex;
     justify-content: space-between;
-    padding-left: 25px;
     font-size: 25px;
-    ${mobile({padding: '5px', fontSize: '17px', height: '60px', textAlign: 'center'})}
+    ${mobile({ fontSize: '17px', height: '65px', textAlign: 'center', paddingBottom: '20px'})}
 `;
 
 const ContainerLeft = styled.p`
@@ -22,7 +21,7 @@ const ContainerLeft = styled.p`
     
     padding-left: 25px;
     font-size: 25px;
-    ${mobile({padding: '5px', fontSize: '17px', height: '60px', textAlign: 'left'})}
+    ${mobile({ fontSize: '17px', height: '60px', textAlign: 'left', paddingLeft: '10px'})}
 `;
 
 const ContainerRight = styled.p`
@@ -32,7 +31,7 @@ const ContainerRight = styled.p`
     padding-right: 25px;
     font-weight: bold;
     font-size: 25px;
-    ${mobile({padding: '5px', fontSize: '17px', height: '60px', textAlign: 'right'})}
+    ${mobile({ fontSize: '17px', height: '60px', textAlign: 'right', paddingRight: '10px'})}
 `;
 
 const Reservationheader = () => {

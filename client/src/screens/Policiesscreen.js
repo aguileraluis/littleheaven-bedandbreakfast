@@ -17,7 +17,7 @@ const Policiesscreen = () => {
           data-aos-duration="1300"
           data-aos-anchor-placement="center bottom"
           style={{fontSize: '1.5rem', color: 'black', textAlign: 'center', paddingLeft: '1rem', paddingRight: '1rem', paddingTop: '0',paddingBottom: '0', marginLeft: '3rem', marginRight: '3rem'}}>
-          We understand that things can happen that prevent us from doing the things we planned. We ask that if you wish to cancel your reservations you let us know 48 hours before your reservation. We will refund your money either by check or through direct deposit.
+          We understand that things can happen that prevent us from doing the things we planned. We ask that if you wish to cancel your reservations you let us know 7 days before your reservation.
       </p>
       <br/>   
 
