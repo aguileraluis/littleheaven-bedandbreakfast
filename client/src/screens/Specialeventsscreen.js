@@ -68,7 +68,7 @@ const Specialeventsscreen = () => {
       <h1 style={{ textAlign: 'center', verticalAlign: 'middle', marginBottom: '4rem', color: 'darkorange' }}>Check out our upcoming events!</h1>
       <section stle={{ fontSize: '1.5rem', color: 'black', textAlign: 'center', paddingLeft: '1rem', paddingRight: '1rem', paddingTop: '0', paddingBottom: '0', marginLeft: '1rem', marginRight: '1rem', width: '50%', height: 'auto' }}>
 
-        <div style={{ display: 'block', flexDirection: 'row' }}>
+        {/* <div style={{ display: 'block', flexDirection: 'row' }}>
         <Photos galleryImages={pastryImages} />
         <div className='demo' id='demo' style={{ backgroundColor: 'darkorange' }}>
           <div className='container'>
@@ -97,7 +97,7 @@ const Specialeventsscreen = () => {
             </div>
             
           </div>
-        </div>
+        </div> */}
 
           {/* <div className='demo' id='demo' style={{ backgroundColor: 'darkorange' }}>
             <div className='container'>
@@ -118,7 +118,7 @@ We will provide hot chocolate and apple cider with cookies for you to enjoy. A P
 
           <br />
 
-          <div className='demo' id='demo'>
+          {/* <div className='demo' id='demo'> */}
             {/* <div className='container'>
               <div className='col-1'> */}
             <br />
@@ -142,8 +142,8 @@ We will provide hot chocolate and apple cider with cookies for you to enjoy. A P
             <div className="section-title">
               <button className="btn-primary" style={{ backgroundColor: 'black' }}><a style={{ color: 'white', textDecoration: "none" }} href="https://www.facebook.com/events/1494191691393241/?acontext=%7B%22event_action_history%22%3A[]%7D">Go to Facebook Event</a></button>
             </div>*/}
-          </div>
-        </div> 
+          {/* </div>
+        </div>  */}
 
         <br />
 

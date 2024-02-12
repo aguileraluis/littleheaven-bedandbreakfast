@@ -39,8 +39,6 @@ const NavLink = css`
     }
 `
 
-
-
 const Logo = styled(Link)`
 ${NavLink}
 color: #fff;
