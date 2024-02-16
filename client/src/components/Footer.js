@@ -130,6 +130,8 @@ const Footer = () => {
           <FooterInfo>
             <Link to="/littleheavenbedandbreakfast"><h4>View Our Rooms</h4></Link>
             <Link to="/story"><h4>Our Story</h4></Link>
+            <Link to="https://secure.thinkreservations.com/littleheavenbedandbreakfast/reservations/privacy-policy"><h4>Privacy Policy</h4></Link>
+
           </FooterInfo>
         </FooterTop>
         <FooterBottom>
@@ -143,12 +145,14 @@ const Footer = () => {
             <a href="//facebook.com/littleheavenbedandbreakfast?mibextid=2JQ9oc" rel="noopener noreferrer" target="_blank">
               <Facebook />
             </a>
+           
           </SocialIcons>
           <Contact>
             <Button to="/signup" style={{ color: 'white', marginLeft: '130px', backgroundColor: 'black'}}>
               Newsletter <IoMdArrowRoundForward />
             </Button>
           </Contact>
+      
         </FooterBottom>
       </Container>
     </Section>

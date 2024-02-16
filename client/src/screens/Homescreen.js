@@ -824,7 +824,7 @@ function Homescreen() {
                     <div className="row mt-12 bs justify-content-center" style={{ width: 'auto', height: 'auto', position: 'relative', marginRight: '10px' }} data-aos="flip-up">
 
                     
-                        <div className="col-sm-12">
+                        {/* <div className="col-sm-12">
                             <div className='form-control'>
                                 <RangePicker
                                     dropdownClassName="dropdown-class-name-2"
@@ -834,10 +834,10 @@ function Homescreen() {
                                 />
 
                             </div>
-                        </div>
+                        </div> */}
                         <br />
 
-                        <div className="col-md-4" >
+                        <div className="col-md-12" >
                             <input type="text" className="form-control" placeholder="search rooms"
                                 value={searchkey} onChange={(e) => { setsearchkey(e.target.value) }} onKeyUp={filterBySearch}
                             />

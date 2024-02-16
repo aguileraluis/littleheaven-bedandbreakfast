@@ -2,6 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 import { mobile } from "../responsive";
 import CalendarMonthIcon from '@mui/icons-material/CalendarMonth';
+import RedeemIcon from '@mui/icons-material/Redeem';
 
 const Container = styled.div`
     height: 45px;
@@ -42,7 +43,10 @@ const Reservationheader = () => {
         Phone : 336-468-2300 | littleheavenlodge@gmail.com
     </ContainerLeft>
     <ContainerRight>
-        <CalendarMonthIcon style={{ justifyContent: 'center', fontSize: '35px', padding: '3px', marginRight: '7px'}}/> | <a style={{textDecoration: 'none', color: 'white', marginLeft: '10px'}} href="/littleheavenbedandbreakfast"> Reservations </a> 
+        <RedeemIcon style={{ justifyContent: 'center', fontSize: '35px', padding: '3px', marginRight: '7px'}}/> <a style={{textDecoration: 'none', color: 'white', marginLeft: '10px'}} href="https://secure.thinkreservations.com/littleheavenbedandbreakfast/gift-certificates"> Gift Certificates </a> 
+        |
+        <CalendarMonthIcon style={{ justifyContent: 'center', fontSize: '35px', padding: '3px', marginRight: '7px'}}/> <a style={{textDecoration: 'none', color: 'white', marginLeft: '10px'}} href="https://secure.thinkreservations.com/littleheavenbedandbreakfast/reservations"> Reservations </a> 
+
     </ContainerRight>
     </Container>
     </>

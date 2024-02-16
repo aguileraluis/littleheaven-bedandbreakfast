@@ -31,11 +31,11 @@ function Room({ room, fromdate, todate }) {
 
                 
                 {(
-                    <Link to={`/book/${room._id}/${fromdate}/${todate}`}>
+                    <Link to={`https://secure.thinkreservations.com/littleheavenbedandbreakfast/reservations`}>
                     
-                    { total >= 1 ?
+                  
                 <button style={{marginTop: '10px', marginLeft: '8px'}}className="btn btn-primary">Book Now</button>
-                       :  ""}
+                   
                 </Link>
                 )} 
                 <br/>
@@ -80,4 +80,3 @@ function Room({ room, fromdate, todate }) {
 }
 
 export default Room;
-
