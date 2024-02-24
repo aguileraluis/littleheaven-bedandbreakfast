@@ -116,7 +116,7 @@ We will provide hot chocolate and apple cider with cookies for you to enjoy. A P
             </div> 
   </div> */}
 
-          <br />
+          {/* <br /> */}
 
           {/* <div className='demo' id='demo'> */}
             {/* <div className='container'>
@@ -145,7 +145,7 @@ We will provide hot chocolate and apple cider with cookies for you to enjoy. A P
           {/* </div>
         </div>  */}
 
-        <br />
+        {/* <br /> */}
 
         {/* <div className='demo' id='demo' style={{ backgroundColor: 'darkorange' }}>
           <div className='container'>
@@ -163,7 +163,7 @@ We will provide hot chocolate and apple cider with cookies for you to enjoy. A P
           </div>
         </div> */}
 
-<div className='demo' id='demo' style={{ backgroundColor: 'darkorange' }}>
+{/* <div className='demo' id='demo' style={{ backgroundColor: 'darkorange' }}>
           <div className='container'>
            
             <div className='col-1'>
@@ -179,9 +179,9 @@ We will provide hot chocolate and apple cider with cookies for you to enjoy. A P
               <img className="smallimgthree" src={eventthree} alt="menu" />
             </div>
           </div>
-        </div>
+        </div> */}
         <br />
-        <div className='demo' id='demo'>
+        {/* <div className='demo' id='demo'>
           <div className='container'>
             
             <div className='col-1'>
@@ -196,10 +196,10 @@ We will provide hot chocolate and apple cider with cookies for you to enjoy. A P
               <button style={{ backgroundColor: 'black' }} className='btn-primary'><a style={{ color: 'white', textDecoration: "none" }} href="https://www.facebook.com/story.php?story_fbid=311892721818044&id=100089919546738&mibextid=I6gGtw">Go to Facebook Event</a></button>
             </div>
           </div>
-        </div>
+        </div> */}
 
-        <br />
-        <br />
+        {/* <br />
+        <br /> */}
 
         {/*<div className='demo' id='demo' style={{ backgroundColor: 'darkorange' }}>
             <div className='container'>
@@ -217,8 +217,8 @@ We will provide hot chocolate and apple cider with cookies for you to enjoy. A P
             </div>
               </div>*/}
 
-        <br />
-        <br />
+        {/* <br />
+        <br /> */}
 
         {/*<div className='demo' id='demo' style={{ backgroundColor: 'darkorange' }}>
             <div className='container'>
@@ -238,7 +238,7 @@ We will provide hot chocolate and apple cider with cookies for you to enjoy. A P
 
         
 
-        <br />
+        {/* <br /> */}
 
         <div className='demo' id='demo'>
           <div className='container'>
