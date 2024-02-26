@@ -18,29 +18,15 @@ const Specialeventsscreen = () => {
 
   const galleryImages = [
     {
-      img: 'https://i.postimg.cc/503wByC0/image0.jpg'
+      img: 'https://i.postimg.cc/BZy2Nps9/event.jpg'
     },
     {
-      img: 'https://i.postimg.cc/mgHCd8HK/image1.jpg'
+      img: 'https://i.postimg.cc/nhPPK5T8/eventtwoo.jpg'
     },
     {
-      img: 'https://i.postimg.cc/wv0mtrCR/image2.jpg'
-    },
-    {
-      img: 'https://i.postimg.cc/yYJZdvvW/image3.jpg'
-    },
-    {
-      img: 'https://i.postimg.cc/5yDjLWny/image4.jpg'
-    },
-    {
-      img: 'https://i.postimg.cc/hGMjMdpH/image5.jpg'
-    },
-    {
-      img: 'https://i.postimg.cc/pX8KCs84/image6.jpg'
-    },
-    {
-      img: 'https://i.postimg.cc/TPPyz0LR/image8.jpg'
+      img: 'https://i.postimg.cc/N00QFWMW/eventthreee.jpg'
     }
+    
   ]
 
   const pastryImages = [
@@ -68,7 +54,7 @@ const Specialeventsscreen = () => {
       <h1 style={{ textAlign: 'center', verticalAlign: 'middle', marginBottom: '4rem', color: 'darkorange' }}>Check out our upcoming events!</h1>
       <section stle={{ fontSize: '1.5rem', color: 'black', textAlign: 'center', paddingLeft: '1rem', paddingRight: '1rem', paddingTop: '0', paddingBottom: '0', marginLeft: '1rem', marginRight: '1rem', width: '50%', height: 'auto' }}>
 
-        {/* <div style={{ display: 'block', flexDirection: 'row' }}>
+        {/* {/* <div style={{ display: 'block', flexDirection: 'row' }}>
         <Photos galleryImages={pastryImages} />
         <div className='demo' id='demo' style={{ backgroundColor: 'darkorange' }}>
           <div className='container'>
@@ -84,37 +70,77 @@ const Specialeventsscreen = () => {
               <button style={{ backgroundColor: 'black' }} className='btn-primary'><a style={{ color: 'white', textDecoration: "none" }} href="https://www.facebook.com/share/v/KNyPFEf5VcWWAV8k/?mibextid=WC7FNe" >Go to Facebook Event</a></button>
             </div>
           </div>
-        </div>
+        </div> */}
         
+        <div className='demo' id='demo' style={{ backgroundColor: 'darkorange' }}>
+          <div className='container'>
+            <div className='col-1'>
+              <img className="smallimgthree" src="https://i.postimg.cc/90p03cSn/giveaway.jpg" alt="menu" />
+            </div>
+            <div className='col-1'>
+              <br />
+              <p>TWO NIGHTS GIVEAWAY</p>
+              <p style={{ fontSize: '30px' }}>How you would like to have 2 nights stay for you to enjoy or for someone else as a gift to them at Little Heaven?
+                Well, that is very easy! I Just follow these 3 steps 👇and get an entry for the raffle every day !</p>
+              <br />
+              <button style={{ backgroundColor: 'black' }} className='btn-primary'><a style={{ color: 'white', textDecoration: "none" }} href="https://www.facebook.com/story.php?story_fbid=312966005044049&id=100089919546738&mibextid=I6gGtw">Go to Facebook Event</a></button>
+            </div>
+          </div>
+        </div>
+          <div className='demo' id='demo' style={{ backgroundColor: 'darkorange' }}>
+            <div className='container'>
+              <div className='col-1'>
+                <br />
+                <p>Wine Tasting In Little Heaven</p>
+                <p style={{ fontSize: '30px' }}>Pease give us a call for more details!❤️</p>
+                <br />
+              
+              </div>
+              <div className='col-1'>
+                <img className="smallimgthree" src='https://i.postimg.cc/qq0cXMyb/winetasting.jpg' alt="menu" />
+              </div>
+            </div> 
+            </div>
+        
+        <div className='demo' id='demo' style={{ backgroundColor: 'darkorange' }}>
+          <div className='container'>
+         
+            <div className='col-1'>
+              <img className="smallimgthree" src="https://i.postimg.cc/5yFgpkRy/singles.jpg" alt="menu" />
+            </div>
+            <div className='col-1'>
+              <br />
+              <p>Give us a call for more details</p>
+            </div>
+          </div>
+        </div> 
         <div className='demo' id='demo' style={{ backgroundColor: 'darkorange' }}>
           <div className='container'>
           <div className='col-1'>
               <br />
-              <p>Give us a call and try our delicious pastries.</p>
+              <p>Give us a call for more details.</p>
             </div>
             <div className='col-1'>
-              <img className="smallimgthree" src="https://i.postimg.cc/W3ZHRw9s/flyermenu.jpg" alt="menu" />
+              <img className="smallimgthree" src="https://i.postimg.cc/sXZy93sh/winetwo.jpg" alt="menu" />
             </div>
             
           </div>
-        </div> */}
+        </div> 
+        <div className='demo' id='demo' style={{ backgroundColor: 'darkorange' }}>
+          <div className='container'>
+          
+            <div className='col-1'>
+              <img className="smallimgthree" src="https://i.postimg.cc/wTRxccxr/winethree.jpg" alt="menu" />
+            </div>
+            <div className='col-1'>
+              <br />
+              <p>Give us a call for more details.</p>
+            </div>
+          </div>
+        </div> 
 
-          {/* <div className='demo' id='demo' style={{ backgroundColor: 'darkorange' }}>
-            <div className='container'>
-              <div className='col-1'>
-                <br />
-                <p>Christmas In Little Heaven</p>
-                <p style={{ fontSize: '30px' }}>Come and be part of our very FIRST Christmas Celebration with families at Little Heaven!! This event is completely FREE!!!
-Bring your own ornaments or home made decorations with your name on it to decorate the outdoor of our Bed and breakfast. We want for all our local families to come and make memories with their kiddos and grandchildren!
-We will provide hot chocolate and apple cider with cookies for you to enjoy. A Professional Photographer will be taking one picture per family for you to remember this moment forever!! Mark your Calendar, can wait to see you ALL!! ❤️</p>
-                <br />
-                <button style={{ backgroundColor: 'black' }} className='btn-primary'><a style={{ color: 'white', textDecoration: "none" }} href="https://www.facebook.com/events/s/christmas-in-little-heaven/281155201478354/?mibextid=9l3rBW">Go to Facebook Event</a></button>
-              </div>
-              <div className='col-1'>
-                <img className="smallimgthree" src={eventfour} alt="menu" />
-              </div>
-            </div> 
-  </div> */}
+        
+
 
           {/* <br /> */}
 
@@ -147,21 +173,6 @@ We will provide hot chocolate and apple cider with cookies for you to enjoy. A P
 
         {/* <br /> */}
 
-        {/* <div className='demo' id='demo' style={{ backgroundColor: 'darkorange' }}>
-          <div className='container'>
-            <div className='col-1'>
-              <img className="smallimgthree" src="https://scontent-atl3-1.xx.fbcdn.net/v/t39.30808-6/409213711_312965975044052_1016155145604398800_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=3635dc&_nc_ohc=MyrSR8pVA88AX9XT7uP&_nc_ht=scontent-atl3-1.xx&oh=00_AfAqbwdMym68zVC-ajBfZVphfKznpuMUAb7DIgwR7lKdOg&oe=657EC907" alt="menu" />
-            </div>
-            <div className='col-1'>
-              <br />
-              <p>TWO NIGHTS GIVEAWAY</p>
-              <p style={{ fontSize: '30px' }}>How you would like to have 2 nights stay for you to enjoy or for someone else as a gift to them at Little Heaven?
-                Well, that is very easy! I Just follow these 3 steps 👇and get an entry for the raffle every day !</p>
-              <br />
-              <button style={{ backgroundColor: 'black' }} className='btn-primary'><a style={{ color: 'white', textDecoration: "none" }} href="https://www.facebook.com/story.php?story_fbid=312966005044049&id=100089919546738&mibextid=I6gGtw">Go to Facebook Event</a></button>
-            </div>
-          </div>
-        </div> */}
 
 {/* <div className='demo' id='demo' style={{ backgroundColor: 'darkorange' }}>
           <div className='container'>
