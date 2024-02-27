@@ -2,6 +2,7 @@ const express = require("express");
 const app = express(); 
 const dbConfig = require('./db'); 
 const roomsRoute = require('./routes/roomsRoute'); 
+const eventsRoute = require('./routes/eventsRoute');
 const bookingsRoute = require('./bookingsRoute'); 
 const usersRoute= require('./routes/usersRoute');
 const path = require("path");
@@ -14,6 +15,7 @@ app.use(express.json());
 app.use('/api/rooms', roomsRoute); 
 app.use('/api/users', usersRoute);
 app.use('/api/bookings', bookingsRoute); 
+app.use('/api/events', eventsRoute);
 
 __dirname = path.resolve();
 

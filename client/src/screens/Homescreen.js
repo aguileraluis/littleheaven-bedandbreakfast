@@ -134,8 +134,6 @@ function Homescreen() {
                 var January = "Jan";
                 var February = "Feb";
 
-
-
                 var date = (day._d).toString();
 
                 for (var cuarto of duplicaterooms) {
