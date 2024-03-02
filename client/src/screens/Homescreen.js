@@ -10,7 +10,7 @@ import 'aos/dist/aos.css';
 import Swal from 'sweetalert2';
 import Hero from '../components/Hero';
 import TitleTwo from '../components/TitleTwo';
-import Announcement from '../components/Announcement';
+// import Announcement from '../components/Announcement';
 import Imagenineteen from "../images/comfort.jpg"; 
 import Imagetwenty from "../images/aromas.jpg";
 import Imageone from '../images/roomshero.jpg';
@@ -810,7 +810,7 @@ function Homescreen() {
         <>
             <div style={{textAlign: 'center'}}>
                 <Hero slides={SliderDataFour} />
-                <Announcement />
+                {/* <Announcement /> */}
                 <TitleTwo title="Little Heaven Bed & Breakfast" paragraph="Our Yadkin Valley Lodging includes 6 guest rooms on two different levels each with its own bathroom, writing tables and chairs. Every room has a high definition TV and a fireplace. Every room has been magnificently decorated, each with it's own unique theme, still feeling rustic yet modern. All bathrooms have been completely gutted and renovated for your relaxation and enjoyment. Every room has its own AC for your convenience. The sheets and comforters are all top of the line with comfort as a priority. All rooms include an iron, ironing board, towels, body wash, shampoo, hand soap, toiletries and two robes. * Check in is at 3:00 p.m. every day. Thank you for choosing to stay at Little Heaven Bed and Breakfast. We cannot wait to see you at the Cabin!" />
 
                 <h5 style={{textAlign: 'center'}}>*The Cabin will be closed on Monday and Tuesday until further notice.*</h5>
