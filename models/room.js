@@ -20,6 +20,9 @@ const roomSchema = mongoose.Schema({
     rentPerDay : {
         type: String
     }, 
+    rentPerDay2Title : {
+        type: String
+    },
     rentPerDay2 : {
         type: String
     }

@@ -50,9 +50,8 @@ const Wrap = styled.div`
 const ColumnLeft = styled.div`
     position: relative;
     display: block;
-    flex-wrap: wrap: 
     padding: 0px;
-    justify-content: center
+    justify-content: center;
 
     @media screen and (max-width: 768px) {
         height: 800px; 
@@ -71,7 +70,6 @@ const ColumnRight = styled.div`
 
     @media screen and (max-width: 768px) {
         height: 320px; 
-        -65px; 
         width: 80%; 
         margin: 0 auto; 
         left: 0;
@@ -106,7 +104,7 @@ const Image = styled.img`
     }
 `; 
 
-const Features = ({image, imagetwo, totalamount, rentPerDay, rentPerDay2, roomdescriptiontwo, roomname}) => {
+const Features = ({image, imagetwo, totalamount, rentPerDay, rentPerDay2, roomdescriptiontwo, roomname, rentPerDay2Title }) => {
 
     const [open, setopen] = useState(false)
     let color = ''
@@ -155,7 +153,7 @@ const Features = ({image, imagetwo, totalamount, rentPerDay, rentPerDay2, roomde
                         >
                             <h2 style={{color: `${color}`}}>{roomname}</h2>
                             <p style={{color: `black`, textAlign: 'center', fontSize: '20px'}}><b>Price Per Night : {rentPerDay}</b></p>
-                            <p style={{color: `darkorange`, textAlign: 'center', fontSize: '20px'}}><b>Jan & Feb Only : {rentPerDay2}</b></p>
+                           { rentPerDay2 ? <p style={{color: `darkorange`, textAlign: 'center', fontSize: '20px'}}><b>{`${rentPerDay2Title}:`} {rentPerDay2}</b></p> : <></> }
                             <p style={{color: `black`, textAlign: 'center', fontSize: '20px'}}><b>Total : {totalamount}</b></p>
                             <Image style={{padding: '5px', borderRadius: '5%'}}
                           data-aos='fade-left'
