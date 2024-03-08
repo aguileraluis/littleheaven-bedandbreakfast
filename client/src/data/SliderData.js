@@ -32,9 +32,6 @@ import outside from "../images/outsidetwo.jpg";
 import inside from "../images/outsidethree.jpg";
 import bathroom from "../images/lodgehero.jpg";
 
-
-
-
 export const SliderData = [
     {
         title: <h3 style={{textDecoration: 'italisize', marginRight: '0'}}>Join us at Little Heaven Bed & Breakfastn</h3>,
@@ -89,19 +86,19 @@ export const SliderDataTwo = [
     {
         title: 'Love Roses, Chocolate Covered Strawberries or Wine?',
         path: '/lodging', 
-        image: entrance,
+        image: "https://i.postimg.cc/fLmvx8t4/Capture.png",
         alt: 'Lodge'
     },
     {
         title: 'Packages for the Perfect Getaway!',
         path: '/lodging', 
-        image: entrancethree,
+        image: "https://i.postimg.cc/3xLyc25k/yadkinvalleylittleheavenbedandbreakfast.jpg",
         alt: 'Lodge'
     }, 
     {
         title: 'Make your stay even more enjoyable!',
         path: '/lodging', 
-        image: entrancetwo,
+        image: "https://i.postimg.cc/sXhw26fG/littleheavenbedandbreakfast.jpg",
         alt: 'Lodge'
     }
 ]; 
@@ -206,7 +203,7 @@ export const SliderDataSeven = [
 
     {
         title: "Tour the Cabin",
-        image: lodgeseven, 
+        image: "https://i.postimg.cc/sXhw26fG/littleheavenbedandbreakfast.jpg", 
         alt: 'Lodge',
         titletwo: ''
     }, 

@@ -6,7 +6,7 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { Button } from './Button';
 
 const HeroSection = styled.section`
-    height: 88vh;
+    height: 80vh;
     width: auto;
     position: inline-block;
     overflow: hidden;

@@ -29,16 +29,16 @@ function Cards() {
 
                         <CardItem
                             src={image2}
-                            text="Taste eight of our red and white wines, get 10% off on your selected bottle (under 35.00)"
+                            text="Taste five different wines from six local wineries. Classic Tasting-$25 Reserve Tasting-$38"
                             label="Wine Tasting"
-                            texttwo="* Coming Soon *"
+                            // texttwo="* Coming Soon *"
                         
                         />
                         <CardItem
-                            src={cake}
+                            src={"https://i.postimg.cc/NM2pMg7x/littleheavencafe.jpg"}
                             text="Enjoy a delicious cake of your choice for that special occasion or just to celebrate the sweetness all around"
                             label="Cake"
-                            texttwo="$49.00"
+                            texttwo="starting at $35"
                          
 
 
@@ -69,18 +69,18 @@ function Cards() {
 
                     <br />
                     <ul className="cards__items">
-                        <CardItem
+                        {/* <CardItem
                             src={image6}
                             text="Enjoy the great outdoors with a perfectly designed picnic basket to crave every desire, from fruit to chocolates to wine, call the Lodge to customize yours today"
                             label="Picnic Basket"
                             texttwo="$79.00"
                           
-                        />
+                        /> */}
 
                         <CardItem
-                            src={image4}
-                            text="Indulge in a wooden tray of cheese and deli meats to curve the afternoon hunger"
-                            label="Cheese/Snacks"
+                            src={"https://i.postimg.cc/NFrVW6zB/littleheavenbasket.jpg"}
+                            text="indulge in a charcuterie box full of cheese and deli meats made to enjoy alone or share to curve the afternoon hunger"
+                            label="Charcuterie Board"
                             texttwo="$49.00"
                        
 
@@ -90,7 +90,7 @@ function Cards() {
                             src={image8}
                             text="* We will soon be offering wine * Whatever the taste you love, we have it. We are working so that you can soon enjoy a delicious bottle of local wine"
                             label=" Bottle of Wine"
-                            texttwo="from $25.00 to $195.00"
+                            texttwo="from $20-$125 "
                           
                         />
                     </ul>
