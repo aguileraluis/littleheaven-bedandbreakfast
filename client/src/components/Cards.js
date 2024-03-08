@@ -81,14 +81,14 @@ function Cards() {
                             src={"https://i.postimg.cc/NFrVW6zB/littleheavenbasket.jpg"}
                             text="indulge in a charcuterie box full of cheese and deli meats made to enjoy alone or share to curve the afternoon hunger"
                             label="Charcuterie Board"
-                            texttwo="$49.00"
+                            texttwo="$25.00"
                        
 
 
                         />
                         <CardItem
                             src={image8}
-                            text="* We will soon be offering wine * Whatever the taste you love, we have it. We are working so that you can soon enjoy a delicious bottle of local wine"
+                            text="Whatever the taste you love, we have it. Come and enjoy a delicious bottle of wine with great views, food and company."
                             label=" Bottle of Wine"
                             texttwo="from $20-$125 "
                           
