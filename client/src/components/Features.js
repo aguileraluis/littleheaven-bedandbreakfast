@@ -154,7 +154,7 @@ const Features = ({image, imagetwo, totalamount, rentPerDay, rentPerDay2, roomde
                             <h2 style={{color: `${color}`}}>{roomname}</h2>
                             <p style={{color: `black`, textAlign: 'center', fontSize: '20px'}}><b>Price Per Night : {rentPerDay}</b></p>
                            { rentPerDay2 ? <p style={{color: `darkorange`, textAlign: 'center', fontSize: '20px'}}><b>{`${rentPerDay2Title}:`} {rentPerDay2}</b></p> : <></> }
-                            <p style={{color: `black`, textAlign: 'center', fontSize: '20px'}}><b>Total : {totalamount}</b></p>
+                           
                             <Image style={{padding: '5px', borderRadius: '5%'}}
                           data-aos='fade-left'
                           data-aos-duration='1200'
