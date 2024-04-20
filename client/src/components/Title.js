@@ -2,7 +2,6 @@ import React from 'react';
 import wallone from '../images/sunsetimg.jpg';
 import imageseven from '../images/littleheavenb&b.jpg';
 
-
 export default function Title({title, titletwo, paragraph}) {
   return (
     <div className="section-title" style={{backgroundImage: `url(${wallone})`}}>
@@ -15,7 +14,6 @@ export default function Title({title, titletwo, paragraph}) {
             data-aos-anchor-placement='center bottom'
         >{title}</h2>
        
-        
       <br/>
         <h4 style={{color: 'brown', paddingRight: '1rem', paddingLeft: '1rem', outlineColor: 'orange'}}>- A Yadkin Valley Bed and Breakfast</h4>
         <br/>
