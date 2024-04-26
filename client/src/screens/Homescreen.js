@@ -26,7 +26,7 @@ function Homescreen() {
     {
       title: "You will fall in love with ALL six rooms!",
       titletwo: "each one with new amenities and fully renovated",
-      image: Imageone,
+      image: "https://i.postimg.cc/0y2NbZQL/IMG-7134.jpg",
       alt: "Lodge",
     },
     {
