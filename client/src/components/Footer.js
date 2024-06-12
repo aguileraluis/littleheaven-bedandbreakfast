@@ -1,28 +1,26 @@
-import React from 'react';
-import styled, { css } from 'styled-components';
-import { Link } from 'react-router-dom';
-import { Button } from './Button';
-import { IoMdArrowRoundForward } from 'react-icons/io';
-import { FaInstagram, FaFacebookF, FaTiktok } from 'react-icons/fa';
-import image from '../images/FooterImage.jpg';
-
+import React from "react";
+import styled, { css } from "styled-components";
+import { Link } from "react-router-dom";
+import { Button } from "./Button";
+import { IoMdArrowRoundForward } from "react-icons/io";
+import { FaInstagram, FaFacebookF, FaTiktok } from "react-icons/fa";
+import image from "../images/FooterImage.jpg";
 
 // Luis you changed this code if the footer is not working you need to check all the properties under the SECTION styled SECTION which is right underneath this comment
 const Section = styled.section`
-background-image: url(${image});
+  background-image: url(${image});
   color: #fff;
-  width: 100%; 
-  padding: 1rem calc((100vw - 1300px) /2 ); 
+  width: 100%;
+  padding: 1rem calc((100vw - 1300px) / 2);
   background-image: "../images/FooterImage.jpg";
   position: sticky;
   margin-top: 0;
   border-style: inset;
-  border-width: 15px;  
+  border-width: 15px;
 `;
 
 const Container = styled.div`
-  width: 100%; 
-  
+  width: 100%;
 `;
 
 const FooterTop = styled.div`
@@ -37,7 +35,6 @@ const FooterTop = styled.div`
 const Quote = styled.div`
   flex: 1;
 
-
   h3 {
     font-size: clamp(2rem, 8vw, 5rem);
     text-align: center;
@@ -45,11 +42,9 @@ const Quote = styled.div`
 `;
 
 const FooterInfo = styled.div`
-
   line-height: 3;
   display: flex;
   flex-direction: column;
-
 
   align-items: center;
   text-align: center;
@@ -65,46 +60,45 @@ const FooterInfo = styled.div`
 `;
 
 const FooterBottom = styled.div`
-  display: flex; 
- 
+  display: flex;
 
   @media screen and (max-width: 768px) {
     flex-direction: column;
-  } 
+  }
 `;
 
 const SocialIcons = styled.div`
-  display: flex; 
+  display: flex;
   width: 50%;
   margin-left: 50px;
   padding-bottom: 15px;
 
   @media screen and (max-width: 768px) {
     margin-bottom: 1rem;
-    width: 100%; 
+    width: 100%;
   }
 `;
 
 const Icons = css`
-  font-size: clamp(1rem, 6vw, 2rem); 
-  margin-left: 50px; 
+  font-size: clamp(1rem, 6vw, 2rem);
+  margin-left: 50px;
   color: white;
-`
+`;
 
 const Instagram = styled(FaInstagram)`
   ${Icons}
 `;
 
 const Facebook = styled(FaFacebookF)`
-${Icons}
+  ${Icons}
 `;
 
 const TikTok = styled(FaTiktok)`
-${Icons}
+  ${Icons}
 `;
 
 const Contact = styled.div`
-  width: 50%; 
+  width: 50%;
   display: flex;
   justify-content: flex-end;
   align-items: center;
@@ -117,47 +111,79 @@ const Contact = styled.div`
 
 const Footer = () => {
   return (
-    <Section >
+    <Section>
       <Container>
         <FooterTop>
           <Quote>
-          <h4 style={{ textAlign: 'center' }}><b>Little Heaven Bed & Breakfast</b></h4>
-            <h5 style={{ textAlign: 'center' }}><b>Address:  </b>1065 Tuckda Way </h5> <h5 style={{ textAlign: 'center' }}>Hamptonville NC, 27020</h5>
-            <h5 style={{ textAlign: 'center' }}><b>Email:  </b>littleheavenlodge@gmail.com</h5>
-            <h5 style={{ textAlign: 'center' }}><b>Cabin Phone Number:  </b>336-468-2300</h5>
-            <h5 style={{ textAlign: 'center' }}><b>Boutique Phone Number:  </b>336-615-5173</h5>
+            <h4 style={{ textAlign: "center" }}>
+              <b>Little Heaven Bed & Breakfast</b>
+            </h4>
+            <h5 style={{ textAlign: "center" }}>
+              <b>Address: </b>1065 Tuckda Way{" "}
+            </h5>{" "}
+            <h5 style={{ textAlign: "center" }}>Hamptonville NC, 27020</h5>
+            <h5 style={{ textAlign: "center" }}>
+              <b>Email: </b>littleheavenlodge@gmail.com
+            </h5>
+            <h5 style={{ textAlign: "center" }}>
+              <b>Cabin Phone Number: </b>336-468-2300
+            </h5>
+            <h5 style={{ textAlign: "center" }}>
+              <b>Boutique Phone Number: </b>336-615-5173
+            </h5>
           </Quote>
           <FooterInfo>
-            <Link to="/littleheavenbedandbreakfast"><h4>View Our Rooms</h4></Link>
-            <Link to="/story"><h4>Our Story</h4></Link>
-            <Link to="https://secure.thinkreservations.com/littleheavenbedandbreakfast/reservations/privacy-policy"><h4>Privacy Policy</h4></Link>
-
+            <Link to="/littleheavenbedandbreakfast">
+              <h4>View Our Rooms</h4>
+            </Link>
+            <Link to="/story">
+              <h4>Our Story</h4>
+            </Link>
+            <Link to="https://secure.thinkreservations.com/littleheavenbedandbreakfast/reservations/privacy-policy">
+              <h4>Privacy Policy</h4>
+            </Link>
           </FooterInfo>
         </FooterTop>
         <FooterBottom>
           <SocialIcons>
-            <a href="//tiktok.com/@littleheavenbandb?lang=en" rel="noopener noreferrer" target="_blank">
+            <a
+              href="//tiktok.com/@littleheavenbandb?lang=en"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
               <TikTok />
             </a>
-            <a href="//instagram.com/littleheavenbedbreakfast?igshid=NTc4MTIwNjQ2YQ==" rel="noopener noreferrer" target="_blank">
+            <a
+              href="//instagram.com/littleheavenbedbreakfast?igshid=NTc4MTIwNjQ2YQ=="
+              rel="noopener noreferrer"
+              target="_blank"
+            >
               <Instagram />
             </a>
-            <a href="//facebook.com/littleheavenbedandbreakfast?mibextid=2JQ9oc" rel="noopener noreferrer" target="_blank">
+            <a
+              href="//facebook.com/littleheavenbedandbreakfast?mibextid=2JQ9oc"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
               <Facebook />
             </a>
-           
           </SocialIcons>
           <Contact>
-            <Button to="/signup" style={{ color: 'white', marginLeft: '130px', backgroundColor: 'black'}}>
-              Newsletter <IoMdArrowRoundForward />
+            <Button
+              to="/signup"
+              style={{
+                color: "white",
+                marginLeft: "130px",
+                backgroundColor: "black",
+              }}
+            >
+              Contact Us <IoMdArrowRoundForward />
             </Button>
           </Contact>
-      
         </FooterBottom>
       </Container>
     </Section>
+  );
+};
 
-  )
-}
-
-export default Footer
+export default Footer;

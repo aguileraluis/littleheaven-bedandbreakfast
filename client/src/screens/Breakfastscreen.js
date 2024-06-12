@@ -5,8 +5,17 @@ import TextSection from "../components/TextSection";
 import InfoSection3 from "../components/InfoSection3";
 import InfoSection8 from "../components/InfoSection8";
 import { InfoDataFive, InfoDataSix } from "../data/InfoData";
+import Photos from "../components/Photos";
 
 const Breakfastscreen = () => {
+  const galleryImagesThree = [
+    {
+      img: "https://i.postimg.cc/HL3Tz1m5/55-A2115-F-1040-4287-8-EAB-D217954-C7-BF9.jpg",
+    },
+    {
+      img: "https://i.postimg.cc/zBc8mwVG/IMG-0395.jpg",
+    },
+  ];
   return (
     <>
       <Hero slides={SliderDataEight} />
@@ -26,7 +35,10 @@ const Breakfastscreen = () => {
         Afternoon treats
       </h4>
       <TextSection paragraph="Afternoon treats await you as you curve that afternoon hunger. We pride in making the most delicious and homemade deserts. We also have a cooler filled with local brewed beer. If you would like any additional treats, just let us know." />
-      <InfoSection3 {...InfoDataSix} />
+      <Photos galleryImages={galleryImagesThree} />
+      <br />
+      <br />
+      <br />
     </>
   );
 };

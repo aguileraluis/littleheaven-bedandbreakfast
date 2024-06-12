@@ -5,52 +5,55 @@ import Photos from "../components/Photos";
 const Cafescreen = () => {
   const galleryImagesTwo = [
     {
-      img: "https://i.postimg.cc/Rhd8x6gm/IMG-0006.jpg",
+      img: "https://i.postimg.cc/sfTZXbZM/thumbnail-IMG-1560.jpg",
     },
     {
-      img: "https://i.postimg.cc/L6MfrQPm/IMG-0174.jpg",
+      img: "https://i.postimg.cc/sD1GZKpw/thumbnail-IMG-1537.jpg",
     },
     {
-      img: "https://i.postimg.cc/P5CtKTqJ/IMG-0180.jpg",
+      img: "https://i.postimg.cc/RV861fd9/thumbnail-IMG-6444.jpg",
     },
     {
-      img: "https://i.postimg.cc/zBttdZvD/IMG-0181.jpg",
+      img: "https://i.postimg.cc/cLnKFHk3/thumbnail-IMG-6501.jpg",
     },
     {
-      img: "https://i.postimg.cc/50Y7kKCw/IMG-5462.jpg",
+      img: "https://i.postimg.cc/JhCsvLS2/thumbnail-IMG-6690.jpg",
     },
     {
-      img: "https://i.postimg.cc/VvFj7XDq/IMG-5463-Copy.jpg",
+      img: "https://i.postimg.cc/pT2pVBWQ/thumbnail-IMG-6767.jpg",
     },
     {
-      img: "https://i.postimg.cc/qR4q1SYF/IMG-5469.jpg",
+      img: "https://i.postimg.cc/9000ZFqr/thumbnail-IMG-7163.jpg",
     },
     {
-      img: "https://i.postimg.cc/y6r6RDVt/IMG-9414.jpg",
+      img: "https://i.postimg.cc/HWvVH5f5/thumbnail-IMG-7170.jpg",
     },
     {
-      img: "https://i.postimg.cc/L5rMbZ5s/IMG-9417.jpg",
+      img: "https://i.postimg.cc/3JyWwNTq/thumbnail-IMG-7213.jpg",
     },
     {
-      img: "https://i.postimg.cc/qRqVBGCR/IMG-9428.jpg",
+      img: "https://i.postimg.cc/5NZyQJ92/thumbnail-IMG-7214.jpg",
     },
     {
-      img: "https://i.postimg.cc/pdXX8zFN/IMG-9480.jpg",
+      img: "https://i.postimg.cc/jSP5z1CQ/thumbnail-IMG-7322.jpg",
     },
     {
-      img: "https://i.postimg.cc/tCQqkLxN/IMG-9483.jpg",
+      img: "https://i.postimg.cc/SKGxPz6n/thumbnail-IMG-7341.jpg",
     },
     {
-      img: "https://i.postimg.cc/KYzx4b6x/IMG-9486-Copy.jpg",
+      img: "https://i.postimg.cc/C1LxpL7m/thumbnail-IMG-7579-jpg.jpg",
     },
     {
-      img: "https://i.postimg.cc/QxJ3bVsj/IMG-9550.jpg",
+      img: "https://i.postimg.cc/76sYH8QD/thumbnail-IMG-7829.jpg",
     },
     {
-      img: "https://i.postimg.cc/zf6ZBgwF/IMG-9594.jpg",
+      img: "https://i.postimg.cc/kG2MD1kS/thumbnail-IMG-8006.jpg",
     },
     {
-      img: "https://i.postimg.cc/wjjSQV0k/IMG-9595.jpg",
+      img: "https://i.postimg.cc/bY5N4Pt9/thumbnail-IMG-8015.jpg",
+    },
+    {
+      img: "https://i.postimg.cc/SNzNhPLF/thumbnail-IMG-8032.jpg",
     },
   ];
 
@@ -62,21 +65,21 @@ const Cafescreen = () => {
       <img
         id="logopic"
         style={{
-          width: "30%",
+          width: "60%",
           height: "auto",
           textAlign: "center",
           justifyContent: "center",
           marginTop: "-3%",
           marginBottom: "-3%",
         }}
-        src="https://i.postimg.cc/vm6xs6d9/791-DAF1-D-A7-E1-40-DB-8-DA6-466-A903-DB44-F.jpg"
+        src="https://i.postimg.cc/wTbJWn6C/thumbnail-866-A7-B3-C-7-FE5-4-DEE-A4-D2-3-F61488-A3-BA9.jpg"
         alt="boutiquepic"
       />
       <br />
       <br />
       <br />
       <br />
-      <div style={{ display: "block", flexDirection: "row" }}>
+      {/* <div style={{ display: "block", flexDirection: "row" }}>
         <div
           className="demo"
           id="demo"
@@ -114,9 +117,9 @@ const Cafescreen = () => {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
 
-      <TextSection paragraph="Call Little Heaven Bed & Breakfast today to ask about our pastries. We guarantee you will find something that you will absolutley love and will want to share!" />
+      {/* <TextSection paragraph="Call Little Heaven Bed & Breakfast today to ask about our pastries. We guarantee you will find something that you will absolutley love and will want to share!" /> */}
 
       <Photos galleryImages={galleryImagesTwo} />
       <br />
@@ -124,12 +127,12 @@ const Cafescreen = () => {
       <br />
       <br />
       <br />
-      <h4 style={{ textAlign: "center", color: "darkorange" }}>
+      {/* <h4 style={{ textAlign: "center", color: "darkorange" }}>
         We are open Tuesday-Saturday from 8:30AM-6PM!
       </h4>
       <h4 style={{ textAlign: "center", color: "darkorange" }}>
         Thank you so much!
-      </h4>
+      </h4> */}
       <br />
       <br />
       <br />
