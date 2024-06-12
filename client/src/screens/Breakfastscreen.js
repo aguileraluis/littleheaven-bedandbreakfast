@@ -10,10 +10,10 @@ import Photos from "../components/Photos";
 const Breakfastscreen = () => {
   const galleryImagesThree = [
     {
-      img: "https://i.postimg.cc/HL3Tz1m5/55-A2115-F-1040-4287-8-EAB-D217954-C7-BF9.jpg",
+      img: "https://i.postimg.cc/zBc8mwVG/IMG-0395.jpg",
     },
     {
-      img: "https://i.postimg.cc/zBc8mwVG/IMG-0395.jpg",
+      img: "https://i.postimg.cc/HL3Tz1m5/55-A2115-F-1040-4287-8-EAB-D217954-C7-BF9.jpg",
     },
   ];
   return (

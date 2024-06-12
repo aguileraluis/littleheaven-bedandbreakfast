@@ -5,7 +5,7 @@ import { IoMdArrowRoundForward } from "react-icons/io";
 import HomeOne from "../images/dining.jpg";
 import HomeTwo from "../images/thingstodo.jpg";
 import HomeThree from "../images/localwine.jpg";
-import imageFourteen from "../images/imagefourtee.jpeg";
+import imageFourteen from "../images/imagefourteen.jpeg";
 
 const Section = styled.section`
   width: 100%;
