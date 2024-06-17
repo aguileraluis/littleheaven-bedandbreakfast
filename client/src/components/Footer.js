@@ -123,13 +123,25 @@ const Footer = () => {
             </h5>{" "}
             <h5 style={{ textAlign: "center" }}>Hamptonville NC, 27020</h5>
             <h5 style={{ textAlign: "center" }}>
-              <b>Email: </b>littleheavenlodge@gmail.com
+              <b>Email: </b>
+              <a
+                href="mailto:littleheavenlodge@gmail.com"
+                style={{ color: "white" }}
+              >
+                littleheavenlodge@gmail.com
+              </a>
             </h5>
             <h5 style={{ textAlign: "center" }}>
-              <b>Cabin Phone Number: </b>336-468-2300
+              <b>Cabin Phone Number: </b>
+              <a href="tel:+336-468-2300" style={{ color: "white" }}>
+                336-468-2300
+              </a>
             </h5>
             <h5 style={{ textAlign: "center" }}>
-              <b>Boutique Phone Number: </b>336-615-5173
+              <b>Boutique Phone Number: </b>
+              <a href="tel:+336-615-5173" style={{ color: "white" }}>
+                336-615-5173
+              </a>
             </h5>
           </Quote>
           <FooterInfo>
@@ -177,7 +189,7 @@ const Footer = () => {
                 backgroundColor: "black",
               }}
             >
-              Contact Us <IoMdArrowRoundForward />
+              Newsletter <IoMdArrowRoundForward />
             </Button>
           </Contact>
         </FooterBottom>
