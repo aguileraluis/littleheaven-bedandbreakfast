@@ -133,13 +133,13 @@ const Footer = () => {
             </h5>
             <h5 style={{ textAlign: "center" }}>
               <b>Cabin Phone Number: </b>
-              <a href="tel:+336-468-2300" style={{ color: "white" }}>
+              <a href="tel:+13364682300" style={{ color: "white" }}>
                 336-468-2300
               </a>
             </h5>
             <h5 style={{ textAlign: "center" }}>
               <b>Boutique Phone Number: </b>
-              <a href="tel:+336-615-5173" style={{ color: "white" }}>
+              <a href="tel:+13366155173" style={{ color: "white" }}>
                 336-615-5173
               </a>
             </h5>
