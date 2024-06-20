@@ -22,7 +22,7 @@ export default function Title({ title, titletwo, paragraph }) {
       <br />
       <h4
         style={{
-          color: "brown",
+          color: "white",
           paddingRight: "1rem",
           paddingLeft: "1rem",
           outlineColor: "orange",
@@ -31,14 +31,21 @@ export default function Title({ title, titletwo, paragraph }) {
         - A Yadkin Valley Bed and Breakfast
       </h4>
       <br />
+      <img
+        className="supimg"
+        alt="TravelImage"
+        src="https://i.postimg.cc/Pfgw0bPZ/IMG-7117.jpg"
+      />
+      <br />
+      <br />
+      <br />
       <p
         data-aos="fade-right"
         data-aos-duration="1300"
         data-aos-anchor-placement="center bottom"
         style={{
-          fontSize: "1.4rem",
-          color: "black",
-          backgroundColor: "orange",
+          fontSize: "1.5rem",
+          color: "white",
           textAlign: "center",
           paddingLeft: "1rem",
           paddingRight: "1rem",
@@ -52,11 +59,6 @@ export default function Title({ title, titletwo, paragraph }) {
       >
         {paragraph}
       </p>
-      <img
-        className="supimg"
-        alt="TravelImage"
-        src="https://i.postimg.cc/Pfgw0bPZ/IMG-7117.jpg"
-      />
       <br /> <br />
     </div>
   );

@@ -203,7 +203,7 @@ export const SliderDataSix = [
 
 export const SliderDataSeven = [
   {
-    title: "Tour the Cabin",
+    title: "Welcome to our Policies",
     image: "https://i.postimg.cc/sXhw26fG/littleheavenbedandbreakfast.jpg",
     alt: "Lodge",
     titletwo: "",

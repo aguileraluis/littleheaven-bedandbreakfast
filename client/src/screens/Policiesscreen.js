@@ -1,11 +1,11 @@
 import React from "react";
 import Hero from "../components/Hero";
-import { SliderDataTen } from "../data/SliderData";
+import { SliderDataSeven } from "../data/SliderData";
 
 const Policiesscreen = () => {
   return (
     <>
-      <Hero slides={SliderDataTen} />
+      <Hero slides={SliderDataSeven} />
       <br />
       <br />
       <br />

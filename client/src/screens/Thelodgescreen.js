@@ -11,62 +11,22 @@ import Treats from "../images/cafe.jpg";
 import Directions from "../images/directions.jpg";
 import Policies from "../images/policy.jpg";
 // import Announcement from '../components/Announcement';
-import bathroom from "../images/lodgehero.jpg";
-import Imagefifteen from "../images/littleheavenb&b.jpg";
-import Imageseventeen from "../images/littleheavenbedandbreakfast.jpg";
-import outside from "../images/outsidetwo.jpg";
-import inside from "../images/outsidethree.jpg";
-import Imageeighteen from "../images/littleheavenbb.jpg";
+import Header from "../components/Header/Header";
+
+import Video from "../components/video";
 
 const About = () => {
-  const SliderDataThree = [
-    {
-      title: "Welcome to Little Heaven Bed & Breakfast",
-      titletwo: "a true experience of Peace, Joy, Love, Hope, and Faith",
-      image: "https://i.postimg.cc/HLg8jTQL/IMG-7116.jpg",
-      alt: "Lodge",
-    },
-    {
-      title: "From Modern Decor to Luxurious Comfort",
-      titletwo: "You will forget where you are",
-      image: bathroom,
-      alt: "Lodge",
-    },
-    {
-      title: "Six Unique and Elegant Rooms",
-      titletwo: "for the perfect getaway",
-      image: "https://i.postimg.cc/T2FwpRxX/IMG-7119.jpg",
-      alt: "Lodge",
-    },
-    {
-      title: "Mountain Views Surround You",
-      titletwo: "relax and let them take your worries away",
-      image: outside,
-      alt: "Lodge",
-    },
-    {
-      title: "An Exquisite, Rustic Experience",
-      titletwo: "The openness carries itself inside",
-      image: inside,
-      alt: "Lodge",
-    },
-    {
-      title: "We Thank you",
-      titletwo: "for choosing Little Heaven Bed & Breakfast",
-      image: "https://i.postimg.cc/Pfgw0bPZ/IMG-7117.jpg",
-      alt: "Lodge",
-    },
-  ];
-
   return (
     <>
       {/* <Announcement /> */}
-      <Hero slides={SliderDataThree} />
-      <Title
+
+      <Video />
+      <Header />
+      {/* <Title
         title="Little Heaven Bed & Breakfast"
         titletwo="Explore Little Heaven Bed & Breakfast:"
         paragraph="Stay in the heart of Yadkin County in this elegantly-rustic Yadkin Valley Bed and Breakfast. Little Heaven Bed and Breakfast is less than an hour away from the northwestern Virginia / North Caolina state line, Winston-Salem, Greensboro and High Point and just over an hour away from Charlotte. Views from the Blue Ridge Parkway are within driving distances. There are numerous wineries in the Yadkin Valley that you can enjoy tasing and fine dining. The outdoors will transform your soul when you experience the rawness that the Yadkin Valley has to offer. On the property, there is a pond where you can fish, there is 10 acres full of woods and open space to explore with yourself or your loved ones. Aside from the mountains, we have endless rivers and lakes around the area as well. Little Heaven Bed & Breakfast welcomes you, and thanks you from the bottom of our hearts for the opportunity to provide you with a heavenly experience."
-      />
+      /> */}
       <br />
       <TextSection
         paragraph="The Cabin is a very inviting, warm, spacious, and exquisite space with all of it's brand-new upgrades. Every room has been completely renovated from floor to ceiling. With every detail meticulously thought out, you will feel like arriving home every time you step foot onto the Bed & Breakfast. The comforts and amenities allow you to feel the luxury of fine lodging. The fireplaces in every room warm up your body and soul. The views are spectacular and the nature at your footsteps is why we pride ourselves in our beautiful location. The property has a pond where you can catch fish or just enjoy the view around the campfire.
