@@ -1,5 +1,6 @@
 .app__header {
   background-color: var(--color-black);
+  position: relative;
 }
 
 .app__header-h1 {

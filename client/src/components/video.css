@@ -7,9 +7,49 @@ video {
 
 .overlay {
   position: fixed;
-  top: 5;
+  top: 40;
   left: 0;
   width: 100%;
   height: 100%;
   background-color: rgba(0, 0, 0, 0.3);
 }
+
+@media screen and (max-width: 1550px) {
+  .videoContainer {
+    background-color: #ff8c00;
+  }
+
+  video {
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    bottom: 0;
+    margin-bottom: 0%;
+    width: 100%;
+    height: auto;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    vertical-align: baseline;
+    margin: 70px 0px 0px;
+  }
+}
+
+/* @media screen and (max-width: 650px) {
+  video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    max-width: none;
+    vertical-align: baseline;
+  }
+} */

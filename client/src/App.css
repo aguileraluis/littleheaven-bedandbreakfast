@@ -103,6 +103,7 @@
 }
 
 .app__bg {
+  display: inline-block;
   background: url("./images/sunsetimg.jpg");
   background-position: center;
   background-size: cover;

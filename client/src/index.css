@@ -185,6 +185,12 @@ nav a.active {
   }
 }
 
+@media screen and (max-width: 650px) {
+  .spacer {
+    padding-top: 179px !important;
+  }
+}
+
 .banner {
   transition: var(--mainTransition);
   display: inline-block;

@@ -5,18 +5,26 @@ import CalendarMonthIcon from "@mui/icons-material/CalendarMonth";
 import RedeemIcon from "@mui/icons-material/Redeem";
 
 const Container = styled.div`
-  height: 45px;
+  height: 50px;
   background-color: darkorange;
   color: white;
   display: flex;
   justify-content: space-between;
-  font-size: 20px;
+  font-size: 25px;
   ${mobile({
     fontSize: "17px",
-    height: "65px",
+    height: "70px",
     textAlign: "center",
-    paddingBottom: "20px",
+    paddingBottom: "10px",
   })}
+
+  @media screen and (min-width: 850px) {
+    height: 65px;
+    padding: 20px;
+    font-size: 10px;
+    align-items: center;
+    justify-content: center;
+  }
 `;
 
 const ContainerLeft = styled.p`
@@ -24,15 +32,20 @@ const ContainerLeft = styled.p`
   color: white;
   text-align: left;
   font-weight: bold;
-
   padding-left: 25px;
-  font-size: 20px;
+  font-size: 25px;
   ${mobile({
-    fontSize: "17px",
+    fontSize: "20px",
     height: "60px",
     textAlign: "left",
-    paddingLeft: "10px",
+    paddingLeft: "5px",
   })}
+
+  @media screen and (min-width: 850px) {
+    font-size: 20px;
+    justify-content: center;
+    padding-top: 10px;
+  }
 `;
 
 const ContainerRight = styled.p`
@@ -43,11 +56,18 @@ const ContainerRight = styled.p`
   font-weight: bold;
   font-size: 20px;
   ${mobile({
-    fontSize: "17px",
-    height: "60px",
+    fontSize: "12px",
+    height: "65px",
     textAlign: "right",
     paddingRight: "10px",
   })}
+
+  @media screen and (min-width: 850px) {
+    font-size: 20px;
+    justify-content: center;
+    padding-top: 7px;
+    padding-bottom: 7px;
+  }
 `;
 
 const Reservationheader = () => {
