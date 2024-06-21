@@ -11,9 +11,8 @@ const video = () => {
         loop
         muted
         webkit-playsinline
-        playsinline
+        playsinline="playsinline"
         allowFullScreen
-        controls
       />
       <div className="overlay"></div>
     </div>

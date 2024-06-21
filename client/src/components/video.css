@@ -6,7 +6,7 @@ video {
 }
 
 .overlay {
-  position: fixed;
+  position: absolute;
   top: 40;
   left: 0;
   width: 100%;
