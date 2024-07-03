@@ -5,24 +5,27 @@ import CalendarMonthIcon from "@mui/icons-material/CalendarMonth";
 import RedeemIcon from "@mui/icons-material/Redeem";
 
 const Container = styled.div`
-  height: 50px;
+  height: 60px;
   background-color: darkorange;
   color: white;
   display: flex;
-  justify-content: space-between;
-  font-size: 25px;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  padding: 20px;
   ${mobile({
     position: "block",
-    fontSize: "17px",
-    height: "70px",
+    fontSize: "15px",
+    height: "90px",
     textAlign: "center",
-    paddingBottom: "8px",
+    paddingBottom: "-15px",
+    justifyContent: "center",
   })}
 
   @media screen and (min-width: 850px) {
-    height: 65px;
-    padding: 20px;
-    font-size: 10px;
+    height: 50px;
+    padding: 25px;
+    font-size: 15px;
     align-items: center;
     justify-content: center;
   }
@@ -36,10 +39,11 @@ const ContainerLeft = styled.p`
   padding-left: 25px;
   font-size: 25px;
   ${mobile({
-    fontSize: "20px",
+    fontSize: "15px",
     height: "60px",
     textAlign: "left",
     paddingLeft: "5px",
+    paddingTop: "15px",
   })}
 
   @media screen and (min-width: 850px) {
@@ -55,12 +59,15 @@ const ContainerRight = styled.p`
   text-align: right !important;
   padding-right: 25px;
   font-weight: bold;
+  justify-content: center !important;
   font-size: 20px;
+  padding-top: 10px;
   ${mobile({
     fontSize: "12px",
-    height: "65px",
+    height: "60px",
     textAlign: "right",
     paddingRight: "10px",
+    paddingtop: "15px",
   })}
 
   @media screen and (min-width: 850px) {

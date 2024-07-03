@@ -19,14 +19,14 @@ const About = () => {
   return (
     <>
       <Video />
-      <div
+      {/* <div
         className="spacer"
         style={{
           display: "relative",
           backgroundColor: "#FF8C00",
           color: "#FF8C00",
         }}
-      ></div>
+      ></div> */}
       <Header />
       {/* <Title
         title="Little Heaven Bed & Breakfast"
