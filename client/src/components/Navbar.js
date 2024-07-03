@@ -44,7 +44,6 @@ const Logo = styled(Link)`
   color: #fff;
   font-style: italic;
   font-weight: bold;
-  margin-top: 30px;
   position: sticky;
 `;
 
@@ -136,7 +135,7 @@ const Navbar = ({ toggle }) => {
         <img
           src={logo}
           alt="logo"
-          style={{ position: "fixed", height: "170px", marginLeft: "80px" }}
+          style={{ position: "fixed", height: "140px", marginLeft: "80px" }}
         />
       </Logo>
       <MenuBars style={{ marginRight: "40px" }} onClick={toggle} />

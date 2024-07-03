@@ -48,8 +48,9 @@ function App() {
   return (
     <div className="App">
       <Announcement />
-      <Reservationheader />
+
       <Navbar toggle={toggle} />
+      <Reservationheader />
       <Dropdown isOpen={isOpen} toggle={toggle} />
 
       <Routes>

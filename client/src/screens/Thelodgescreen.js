@@ -18,8 +18,6 @@ import Video from "../components/video";
 const About = () => {
   return (
     <>
-      {/* <Announcement /> */}
-
       <Video />
       <div
         className="spacer"

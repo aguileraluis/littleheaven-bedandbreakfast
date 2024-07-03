@@ -12,10 +12,11 @@ const Container = styled.div`
   justify-content: space-between;
   font-size: 25px;
   ${mobile({
+    position: "block",
     fontSize: "17px",
     height: "70px",
     textAlign: "center",
-    paddingBottom: "10px",
+    paddingBottom: "8px",
   })}
 
   @media screen and (min-width: 850px) {
