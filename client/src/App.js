@@ -47,7 +47,7 @@ function App() {
 
   return (
     <div className="App">
-      <Announcement />
+      {/* <Announcement /> */}
 
       <Navbar toggle={toggle} />
       <Reservationheader />

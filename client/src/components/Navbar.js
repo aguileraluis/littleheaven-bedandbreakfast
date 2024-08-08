@@ -69,7 +69,7 @@ const MenuBars = styled(FaBars)`
     display: none;
   }
 
-  @media screen and (max-width: 850px) {
+  @media screen and (max-width: 1300px) {
     display: block;
   }
 `;
@@ -79,7 +79,7 @@ const NavMenu = styled.div`
   align-items: center;
   margin-right: -48px;
 
-  @media screen and (max-width: 850px) {
+  @media screen and (max-width: 1300px) {
     display: none;
   }
 `;
@@ -135,7 +135,12 @@ const Navbar = ({ toggle }) => {
         <img
           src={logo}
           alt="logo"
-          style={{ position: "fixed", height: "140px", marginLeft: "80px" }}
+          style={{
+            position: "fixed",
+            height: "140px",
+            marginLeft: "80px",
+            marginTop: "25px",
+          }}
         />
       </Logo>
       <MenuBars style={{ marginRight: "40px" }} onClick={toggle} />
